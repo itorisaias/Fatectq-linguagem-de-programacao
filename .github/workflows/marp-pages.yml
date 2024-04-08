@@ -31,13 +31,19 @@ jobs:
       - name: Marp Build (README)
         uses: docker://marpteam/marp-cli:latest
         with:
-          args: --theme-set slides/themes -o build/01_Introducao.html --html -- slides/01_Introducao.md
+          args: --theme-set slides/themes -o build/01.html --html -- slides/01_Introducao.md
         env:
           MARP_USER: root:root
       - name: Marp Build (README)
         uses: docker://marpteam/marp-cli:latest
         with:
-          args: --theme-set slides/themes -o build/03_Revisao.html --html -- slides/03_Revisao.md.md
+          args: --theme-set slides/themes -o build/02.html --html -- slides/02_Cronograma.md
+        env:
+          MARP_USER: root:root
+      - name: Marp Build (README)
+        uses: docker://marpteam/marp-cli:latest
+        with:
+          args: --theme-set slides/themes -o build/03.html --html -- slides/03_Revisao.md.md
         env:
           MARP_USER: root:root
       - name: Setup Pages

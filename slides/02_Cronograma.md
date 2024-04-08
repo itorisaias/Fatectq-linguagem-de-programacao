@@ -1,3 +1,10 @@
+---
+marp: true
+theme: custom-default
+footer: '@itorisaiias - https://itorisaias.com'
+# backgroundImage: url('https://marp.app/assets/hero-background.svg')
+---
+
 Resumo do cronograma de atividades para matéria de **Linguagem de Programação** do período **noturno** da Fatec Taquaritinga.
 
 |Data|Descrição|
