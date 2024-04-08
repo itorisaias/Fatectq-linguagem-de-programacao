@@ -80,8 +80,10 @@ table {
 
 ## **Média final** = (P1 + P2) / 2
 
-- #### (Presença < 75%) == <span style="color: red">reprovado</span>
-- #### (Média final >= 6 && Presença >= 75%) == <span style="color: green">aprovado</span>
+- #### Se (Média final >= 6 && Presença >= 75%)
+  - <span style="color: green">Aprovado</span>
+- #### Senão
+  - <span style="color: red">Reprovado</span>
 
 ---
 

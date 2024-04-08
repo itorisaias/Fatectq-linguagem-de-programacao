@@ -101,12 +101,141 @@ void main() {
 
 # Estruturas de Controle - Condicional - Código
 
+## **IF**
+
 ```c
+#include <stdio.h>
+
+int main() {
+  if (true) {
+    printf("Condição deve ser verdadeira para entrar neste trecho");
+  }
+
+  return 0;
+}
+```
+
+---
+
+# Estruturas de Controle - Condicional - Código
+
+## **ELSE**
+
+```c
+#include <stdio.h>
+
+int main() {
+  if (false) {
+    printf("Condição não vai entrar neste trecho!");
+  } else {
+    printf("Condição deve ser falsa para entrar neste trecho!");
+  }
+
+  return 0;
+}
+```
+
+---
+
+# Estruturas de Controle - Condicional - Código
+
+## **ELSE IF**
+
+```c
+#include <stdio.h>
+
+int main() {
+  if (false) {
+    printf("Condição não vai entrar neste trecho!");
+  } else if (true) {
+    printf("Primeira Condição deve ser falsa e else if verdadeira para entrar neste trecho!");
+  } else {
+    printf("Condição não vai entrar neste trecho!");
+  }
+
+  return 0;
+}
 ```
 
 ---
 
 # Estruturas de Controle - Repetição - Código
 
+## **FOR**
+
+#### Pseudocódigo:
+
+```
+Para (valor inicial até condição_final passo n) faça
+Inicio
+  Instruções;
+Fim;
+```
+
+```
+for(valor_inicial; condição_final; valor_incremento)
+{
+  instruções;
+}
+```
+
+---
+
+# Estruturas de Controle - Repetição - Código
+
+## **FOR**
+
+#### Código em C:
+
 ```c
+#include <stdio.h>
+
+int main() {
+  int quantidade = 10;
+
+  for (int i = 0; i < quantidade; i++) {
+    printf("Codigo passou por aqui.");
+  }
+
+  return 0;
+}
+```
+
+---
+
+# Estruturas de Controle - Repetição - Código
+
+## **WHILE**
+
+#### Pseudocódigo:
+```
+Iniciar a variável de controle
+
+Enquanto (condição) faça
+Início
+  Instruções;
+  Atualizar a variável de controle;
+Fim;
+```
+
+---
+
+# Estruturas de Controle - Repetição - Código
+
+## **WHILE**
+
+#### Código em C
+```c
+#include <stdio.h>
+
+int main() {
+  int contador = 0; // Declarando e inicializando a variável de controle
+
+  while (contador <= 10) { // Testando a condição
+    printf("%d ", contador); // Executando um comando dentro do laço
+    contador++; // Atualizando a variável de controle
+  }
+
+  return 0;
+}
 ```
