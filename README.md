@@ -6,4 +6,4 @@ Este repositório contém a apresentação de slides e recursos para a apresenta
 
 Você pode acessar os slides da palestra no seguinte link:
 
-- [Linguagem de programação](http://itorisaias.com/linguagem-de-promogramacao/)
+- [Linguagem de programação](http://itorisaias.github.io/Fatectq-linguagem-de-programacao/)
