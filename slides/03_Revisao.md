@@ -4,6 +4,15 @@ theme: custom-default
 footer: '@itorisaiias - https://itorisaias.com'
 ---
 
+<!-- _backgroundImage: url('https://marp.app/assets/hero-background.svg') -->
+
+![bg left:40% 90%](https://www.fatectq.edu.br/img/logoFatec.svg)
+# **Linguagem de Programação**
+
+Revisão.
+
+---
+
 # Agenda
 
 - Variáveis, constantes e tipos de dados
@@ -17,6 +26,10 @@ footer: '@itorisaiias - https://itorisaias.com'
 - Estruturas de Controle
   - Condicional: `if`, `else`, `else if`,  `switch`, `case`
   - Repetição: `for`, `while`, `do while`
+
+---
+
+![bg w:900](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHBlMjlvdDRhM2ZkaHc5cHlqNHRqeDIzd2lrOXI0ZjBkeWJreDR5diZlcD12MV9naWZzX3NlYXJjaCZjdD1n/BpGWitbFZflfSUYuZ9/giphy.gif)
 
 ---
 
@@ -50,6 +63,10 @@ void main() {
 
 ---
 
+![bg](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDFqdjZ2Nm0xMnhmanU0NGV0MjZhZjZiaHBuaWhqMG45cmNlb3QwdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZUomWFktUWpFu/giphy-downsized-large.gif)
+
+---
+
 # Entrada e saída de dados
 
 ---
@@ -58,6 +75,10 @@ void main() {
 
 ```c
 ```
+
+---
+
+![bg](https://media.giphy.com/media/11sBLVxNs7v6WA/giphy.gif?cid=790b7611ep1j4354alzfhi0fo9jhvmgsig1cu3xwprpu25uq&ep=v1_gifs_search&rid=giphy.gif&ct=g)
 
 ---
 
@@ -88,6 +109,10 @@ void main() {
   bool aprovado = (media > 6) && faltas < 3; // maior que; operador lógico AND; menor que
 }
 ```
+
+---
+
+![bg](https://media.giphy.com/media/kyLYXonQYYfwYDIeZl/giphy.gif)
 
 ---
 

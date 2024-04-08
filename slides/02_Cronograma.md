@@ -5,6 +5,15 @@ footer: '@itorisaiias - https://itorisaias.com'
 # backgroundImage: url('https://marp.app/assets/hero-background.svg')
 ---
 
+<!-- _backgroundImage: url('https://marp.app/assets/hero-background.svg') -->
+
+![bg left:40% 90%](https://www.fatectq.edu.br/img/logoFatec.svg)
+# **Linguagem de Programação**
+
+Cronograma.
+
+---
+
 Resumo do cronograma de atividades para matéria de **Linguagem de Programação** do período **noturno** da Fatec Taquaritinga.
 
 |Data|Descrição|
