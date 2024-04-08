@@ -1,7 +1,7 @@
 ---
 marp: true
 theme: custom-default
-footer: '@itorisaiias - https://itorisaias.com'
+footer: '@itorisaiias - https://itorisaias.com.br'
 # backgroundImage: url('https://marp.app/assets/hero-background.svg')
 ---
 

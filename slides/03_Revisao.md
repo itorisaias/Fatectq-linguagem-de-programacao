@@ -1,7 +1,7 @@
 ---
 marp: true
 theme: custom-default
-footer: '@itorisaiias - https://itorisaias.com'
+footer: '@itorisaiias - https://itorisaias.com.br'
 ---
 
 <!-- _backgroundImage: url('https://marp.app/assets/hero-background.svg') -->
@@ -41,7 +41,7 @@ Revisão.
 
 ---
 
-![var_const_dados](/slides/img/var_const_dados.drawio.svg)
+![var_const_dados](./img/var_const_dados.drawio.svg)
 
 ---
 
