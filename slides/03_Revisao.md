@@ -194,7 +194,7 @@ int main() {
   int quantidade = 10;
 
   for (int i = 0; i < quantidade; i++) {
-    printf("Codigo passou por aqui.");
+    printf("%d ", i);
   }
 
   return 0;
