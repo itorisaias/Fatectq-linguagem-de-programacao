@@ -76,7 +76,7 @@ table {
 # **Avaliação**
 
 - P1 (19/04) - Avaliação `10 pontos`
-- P2 (21/06) - Avaliação `6 pontos` **+** Listas `4 pontos`
+- P2 (21/06) - Avaliação `6 pontos` **+** Atividades `4 pontos`
 
 ## **Média final** = (P1 + P2) / 2
 
