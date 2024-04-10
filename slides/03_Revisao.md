@@ -17,12 +17,12 @@ Revisão.
 # Agenda
 
 - Variáveis, constantes e tipos de dados
+- Palavras reservadas
 - Entrada (`scanf` e `getch`) e saída (`printf`) de dados
 - Operadores - Aritméticos: `+`, `-`, `*`, `/`, `%`, `++` e `--`
 - Operadores - Lógicos: `&&`, `||` e `!`
 - Operadores - Comparação: `==` `!=`, `>`, `<`, `<=` e `>=`
 - Funções matemáticas
-- Palavras reservadas
 - Estruturas de Controle Condicional: `if`, `else`, `else if`,  `switch` e `case`
 - Estruturas de Controle Repetição: `while`, `do while` e `for`
 
@@ -62,9 +62,6 @@ void main() {
 
 ---
 
-![var_const_dados](./img/var_const_dados.drawio.svg)
-
----
 # Variáveis, constantes e tipos de dados
 
 #### Tabela - Tipos de dados
@@ -77,6 +74,17 @@ void main() {
 |unsigned int|0 a 65.535|16 bits|
 |float|3.4x10^-38 a 3.4x10^38|32 bits|
 |double|1.7x10^-308 a 1.7x10^308|64 bits|
+
+---
+
+![var_const_dados](./img/var_const_dados.drawio.svg)
+
+---
+
+# Palavras reservadas
+
+![alt text](./img/palavras_reservadas.png)
+
 ---
 
 ![bg](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDFqdjZ2Nm0xMnhmanU0NGV0MjZhZjZiaHBuaWhqMG45cmNlb3QwdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZUomWFktUWpFu/giphy-downsized-large.gif)
@@ -105,7 +113,7 @@ void main() {
 int main() {
   int n; // Inicializa a variável do tipo int
 
-  printf("Digite um número: "); // Imprimi na tela à frase "Digite um número: "
+  printf("Digite um número: "); // Imprimi na tela a frase "Digite um número: "
   scanf("%d", &n); // Aguardo usuário realizar a digitação do numero no teclado
 
   printf("O valor digitado foi %d\n",n); // Imprimi na tela a frase "O valor digitado foi X"
@@ -150,7 +158,7 @@ int main() {
 |---|---|---|
 |int|%d|inteiro|
 |float|%f|real|
-|char|%c|carácter|
+|char|%c|caractere|
 |char[]|%s|cadeia de caracteres (string)|
 
 ---
@@ -274,12 +282,6 @@ int main(void) {
 # Funções matemáticas
 
 ![alt text](./img/funcoes_matematicas.png)
-
----
-
-# Palavras reservadas
-
-![alt text](./img/palavras_reservadas.png)
 
 ---
 
@@ -560,11 +562,11 @@ Serão **10 exercícios** relacionados aos conteúdos que irão cair na prova.
 ---
 
 3. Faça um programa em C que mostre a tabuada de qualquer número escolhido pelo usuário (considerar tabuada do número 1 ao 10).
-4. Faça um programa em C (com a estrutura do...while) que leia 20 valores inteiros e:
+4. Faça um programa em C (com a estrutura do...while) que leia 5 valores inteiros e:
    1. Encontre e mostre o maior valor;
    2. Encontre e mostre o menor valor;
    3. Calcule e mostre a média dos números lidos;
-5. Faça um programa em C (utilize a estrutura for) que leia 10 valores inteiros e:
+5. Faça um programa em C (utilize a estrutura for) que leia 5 valores inteiros e:
    1. Encontre e mostre o maior valor
    2. Encontre e mostre o menor valor
    3. Calcule e mostre a média dos números lidos
@@ -573,16 +575,16 @@ Serão **10 exercícios** relacionados aos conteúdos que irão cair na prova.
 
 6. Faça um programa em C que exiba na tela os números ímpares entre 100 e 300.
 7. Faça um programa em C que receba um número inteiro e positivo, e diga se esse número é primo ou não. Obs: Um número é primo somente quando for divisível por 1 e por ele mesmo.
-8. Faça um programa em C que receba a idade de 10 pessoas e mostre quantas são maiores que 18 anos.
+8. Faça um programa em C que receba a idade de 5 pessoas e mostre quantas são maiores que 18 anos.
 
 ---
 
-9. A prefeitura de uma cidade fez uma pesquisa com 200 pessoas, coletando dados sobre o salário e o número de filhos. A prefeitura deseja saber:
+9. A prefeitura de uma cidade fez uma pesquisa com 5 pessoas, coletando dados sobre o salário e o número de filhos. A prefeitura deseja saber:
    1.  A média do salário dessas pessoas
    2.  A média do número de filhos
    3.  O maior salário
    4.  A percentagem de pessoas com salários até R$ 150,00
-10. Faça um programa em C que exiba na tela os número primos entre 0 até o numero informado pelo usuário.*
+10. Faça um programa em C que exiba na tela os números primos entre 0 até o numero informado pelo usuário.*
 
 ---
 
@@ -593,5 +595,5 @@ Serão **10 exercícios** relacionados aos conteúdos que irão cair na prova.
 # Referencia
 
 - [Documentação Bibliotecas em C](https://petbcc.ufscar.br/assert/)
-- [Fundamentos da programação de computadores](https://archive.org/details/fundamentos-da-programacao-de-computadores-algoritmos-pascal-c-c-padrao-ansi-e-java-pdfdrive/page/29/mode/2up)
+- [Fundamentos da programação de computadores](https://archive.org/details/fundamentos-da-programacao-de-computadores-algoritmos-pascal-c-c-padrao-ansi-e-java-pdfdrive)
 -
