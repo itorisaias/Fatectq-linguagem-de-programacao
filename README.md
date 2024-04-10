@@ -4,7 +4,7 @@ Este repositório contém as apresentações de slides e recursos da materia de 
 
 ## Slides
 
-Você pode acessar os slides da palestra no seguinte link:
+Você pode acessar os slides das aulas no seguinte link:
 
 - [Linguagem de programação - 01](https://itorisaias.github.io/Fatectq-linguagem-de-programacao/01)
 - [Linguagem de programação - 02](https://itorisaias.github.io/Fatectq-linguagem-de-programacao/02)
