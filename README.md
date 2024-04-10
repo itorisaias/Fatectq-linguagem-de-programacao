@@ -1,6 +1,6 @@
 # Linguagem de programação
 
-Este repositório contém as apresentações de slides e recursos da materia de **Linguagem de programação** da Fatec Taquaritinga.
+Este repositório abriga as apresentações de slides e demais recursos da disciplina de **Linguagem de Programação** ministrada na **Fatec Taquaritinga**.
 
 ## Slides
 
