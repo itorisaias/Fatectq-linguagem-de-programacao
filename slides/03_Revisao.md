@@ -324,7 +324,7 @@ Fim
 int main(void) {
   int idade = 30; // Declarando e inicializando a variável idade
 
-  if (idade < 18) { // Testando a condição se é maior de idade
+  if (idade < 17) { // Testando a condição se é maior de idade
     printf("Você é menor de idade.\n");
   }
 
@@ -456,7 +456,7 @@ int main() {
   do {
     printf("%d ", contador); // Executando um comando dentro do laço
     contador++; // Atualizando a variável de controle
-  } while (contador <= 10)  // Testando a condição
+  } while (contador <= 10); // Testando a condição
 
   return 0;
 }
