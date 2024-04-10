@@ -17,16 +17,14 @@ Revisão.
 # Agenda
 
 - Variáveis, constantes e tipos de dados
-- Entrada e saída de dados
-  - Entradas: `scanf` e `getch`
-  - Saída: `printf`
-- Operadores
-  - Aritméticos: `+`, `-`, `*`, `/`, `%`, `++` e `--`
-  - Lógicos: `&&`, `||` e `!`
-  - Comparação: `==` `!=`, `>`, `<`, `<=` e `>=`
-- Estruturas de Controle
-  - Condicional: `if`, `else`, `else if`,  `switch` e `case`
-  - Repetição: `while`, `do while` e `for`
+- Entrada (`scanf` e `getch`) e saída (`printf`) de dados
+- Operadores - Aritméticos: `+`, `-`, `*`, `/`, `%`, `++` e `--`
+- Operadores - Lógicos: `&&`, `||` e `!`
+- Operadores - Comparação: `==` `!=`, `>`, `<`, `<=` e `>=`
+- Funções matemáticas
+- Palavras reservadas
+- Estruturas de Controle Condicional: `if`, `else`, `else if`,  `switch` e `case`
+- Estruturas de Controle Repetição: `while`, `do while` e `for`
 
 ---
 
@@ -38,7 +36,7 @@ Revisão.
 
 - Variáveis são espaços de memória reservados para armazenar valores.
 - Os tipos de dados definem o tipo de valor que uma variável pode armazenar, como inteiros, ponto flutuante, caracteres, booleanos, entre outros.
-- Exemplos de tipos de dados comuns incluem int (para números inteiros), float (para números decimais), char (para caracteres) e bool (para valores booleanos).
+- Exemplos de tipos de dados comuns incluem int (para números inteiros), float (para números decimais) e char (para caracteres).
 
 ---
 
@@ -46,16 +44,19 @@ Revisão.
 
 ```c
 // constante
-#define PI = 3.14;
+#define PI 3.14
+#define TRUE 1
+#define FALSE 0
+#define faculdade 'fatec taquaritinga'
 
 void main() {
   // variáveis
   int idade = 28;
   float taxa_juros = 1.5;
   double premio_mega_sena = 46000000;
-  char aceitouTermo = "S";
+  char aceitouTermo = 'S';
   char nome[5] = "itor";
-  bool formado = true;
+  int formado = TRUE;
 }
 ```
 
@@ -63,6 +64,19 @@ void main() {
 
 ![var_const_dados](./img/var_const_dados.drawio.svg)
 
+---
+# Variáveis, constantes e tipos de dados
+
+#### Tabela - Tipos de dados
+
+|Tipo|Faixa de valores|Tamanho (aproximado)|
+|---|---|---|
+|char|-127 a 127|8 bits|
+|unsigned char|0 a 255|8 bits|
+|int|-32.768 a 32.767|16 bits|
+|unsigned int|0 a 65.535|16 bits|
+|float|3.4x10^-38 a 3.4x10^38|32 bits|
+|double|1.7x10^-308 a 1.7x10^308|64 bits|
 ---
 
 ![bg](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDFqdjZ2Nm0xMnhmanU0NGV0MjZhZjZiaHBuaWhqMG45cmNlb3QwdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZUomWFktUWpFu/giphy-downsized-large.gif)
@@ -112,14 +126,16 @@ int main() {
 int main() {
   int idade = 28;
   float taxa_juros = 1.5;
-  char aceitouTermo = "S";
+  char aceitouTermo = 'S';
   char nome[5] = "itor";
 
-  printf("Hello World"); // output sem parâmetro
-  printf("Usuario aceitou o termo? %c", aceitouTermo); // output com parâmetro do tipo char
-  printf("Nome do usuario? %s", nome); // output com parâmetro do tipo char
-  printf("Idade: %d", idade); // output com parâmetro do tipo int
-  printf("Taxa de juros: %f", taxa_juros); // output com parâmetro do tipo float
+  printf("Hello World\n"); // output sem parâmetro
+  printf("Usuario aceitou o termo? %c \n", aceitouTermo); // output com parâmetro do tipo char
+  printf("Nome do usuario? %s\n", nome); // output com parâmetro do tipo char
+  printf("Idade: %d\n", idade); // output com parâmetro do tipo int
+  printf("Taxa de juros: %f\n", taxa_juros); // output com parâmetro do tipo float
+  printf("Taxa de juros: %.2f\n", taxa_juros); // output com parâmetro do tipo float formatado
+  printf("Taxa de juros: %.1f\n", taxa_juros); // output com parâmetro do tipo float formatado
 
   return 0;
 }
@@ -128,14 +144,14 @@ int main() {
 ---
 # Entrada e saída de dados
 
-#### Tabela - Tipos de dados básicos
+#### Tabela - Tipos de dados básicos e representação
 
-|Tipo|Formato|
-|---|---|
-|int|%d|
-|float|%f|
-|char|%c|
-|char[]|%s|
+|Tipo|Formato|Tipos de dados|
+|---|---|---|
+|int|%d|inteiro|
+|float|%f|real|
+|char|%c|carácter|
+|char[]|%s|cadeia de caracteres (string)|
 
 ---
 
@@ -255,6 +271,18 @@ int main(void) {
 
 ---
 
+# Funções matemáticas
+
+![alt text](./img/funcoes_matematicas.png)
+
+---
+
+# Palavras reservadas
+
+![alt text](./img/palavras_reservadas.png)
+
+---
+
 ![bg](https://media.giphy.com/media/kyLYXonQYYfwYDIeZl/giphy.gif)
 
 ---
@@ -275,6 +303,8 @@ int main(void) {
 Inicio
   Se (condicao) então
     Instruções;
+    Se (sub-condicao) então
+      Sub-Instruções;
   Senão
     Instruções;
 Fim
@@ -479,6 +509,10 @@ int main() {
 
 ---
 
+![bg](https://media.giphy.com/media/5UJfr2YxejcY69HenK/giphy.gif?cid=790b7611gvnf65ftghpm9zy9qncoln2gfj02b16zfusntonx&ep=v1_gifs_search&rid=giphy.gif&ct=g)
+
+---
+
 # Interpretação - Ideal X Real
 
 ---
@@ -508,12 +542,23 @@ Criar um programa em C que converta um valor em reais (BRL) para dólares (USD),
 
 # Exercícios
 
-Serão **10 exercícios** para praticar que serão relacionados á conteúdos que **caíram na prova**.
+Serão **10 exercícios** relacionados aos conteúdos que irão cair na prova.
 
 ---
 
 1. Criar um programa em C que converta um valor em reais (BRL) para dólares (USD), usando a cotação do dólar informada pelo usuário.
-2. a
+2. Faça um programa em C que leia o salário de um funcioário e calcule o desconto de INSS dada a tabela a seguir:
+
+    |Salário de contribuição|Alíquota|
+    |---|---|
+    |até R$ 1.212,00|7,5%|
+    |R$ 1.212,01 até R$2.427,35|9%|
+    |R$ 2.427,36 até R$3.641,03|12%|
+    |R$ 3.641,04 até R$7.087,22|14%|
+    |acima R$7.087,22|R$828,39|
+
+---
+
 3. Faça um programa em C que mostre a tabuada de qualquer número escolhido pelo usuário (considerar tabuada do número 1 ao 10).
 4. Faça um programa em C (com a estrutura do...while) que leia 20 valores inteiros e:
    1. Encontre e mostre o maior valor;
@@ -529,13 +574,24 @@ Serão **10 exercícios** para praticar que serão relacionados á conteúdos qu
 6. Faça um programa em C que exiba na tela os números ímpares entre 100 e 300.
 7. Faça um programa em C que receba um número inteiro e positivo, e diga se esse número é primo ou não. Obs: Um número é primo somente quando for divisível por 1 e por ele mesmo.
 8. Faça um programa em C que receba a idade de 10 pessoas e mostre quantas são maiores que 18 anos.
+
+---
+
 9. A prefeitura de uma cidade fez uma pesquisa com 200 pessoas, coletando dados sobre o salário e o número de filhos. A prefeitura deseja saber:
    1.  A média do salário dessas pessoas
    2.  A média do número de filhos
    3.  O maior salário
    4.  A percentagem de pessoas com salários até R$ 150,00
-10. a
+10. Faça um programa em C que exiba na tela os número primos entre 0 até o numero informado pelo usuário.*
 
 ---
 
 ![bg](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHlrMnM5b3BsaWlybHZ0d252MnF3aTYyazhmdGx4NGd1aTJsa3luYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lD76yTC5zxZPG/giphy.gif)
+
+---
+
+# Referencia
+
+- [Documentação Bibliotecas em C](https://petbcc.ufscar.br/assert/)
+- [Fundamentos da programação de computadores](https://archive.org/details/fundamentos-da-programacao-de-computadores-algoritmos-pascal-c-c-padrao-ansi-e-java-pdfdrive/page/29/mode/2up)
+-
