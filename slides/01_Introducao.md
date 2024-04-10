@@ -17,7 +17,6 @@ Material, Cronograma, Ferramentas e assuntos relacionados.
 
 # **Whoami**
 ## Itor Isaias
-### Arquiteto de software <br> 5by5
 
 - <i class="fa-brands fa-linkedin"></i> LinkedIn: - [itorisaias](https://www.linkedin.com/in/itorisaias/)
 - <i class="fa-brands fa-github"></i> GitHub: [itorisaias](https://github.com/itorisaias)
