@@ -692,4 +692,3 @@ int main() {
 
 - [Documentação Bibliotecas em C](https://petbcc.ufscar.br/assert/)
 - [Fundamentos da programação de computadores](https://archive.org/details/fundamentos-da-programacao-de-computadores-algoritmos-pascal-c-c-padrao-ansi-e-java-pdfdrive)
--
