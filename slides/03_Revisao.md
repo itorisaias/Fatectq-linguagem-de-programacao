@@ -94,35 +94,9 @@ void main() {
 
 # Entrada e saída de dados
 
-- Funções de entrada (input)
 - Funções de saída (output)
+- Funções de entrada (input)
 - Todas estão na biblioteca stdio (#include <stdio.h>)
-
----
-
-# Entrada e saída de dados
-
-#### **Entrada**
-
-- `scanf` : É utilizada para fazer a leitura de dados formatados via teclado.
-
-#### Exemplo
-
-[source](../atividades/03_Revisao/03_02_entrada.c)
-```c
-#include <stdio.h>
-
-int main() {
-  int n; // Inicializa a variável do tipo int
-
-  printf("Digite um número: "); // Imprimi na tela a frase "Digite um número: "
-  scanf("%d", &n); // Aguardo usuário realizar a digitação do numero no teclado
-
-  printf("O valor digitado foi %d\n",n); // Imprimi na tela a frase "O valor digitado foi X"
-
-  return 0;
-}
-```
 
 ---
 
@@ -153,6 +127,33 @@ int main() {
 ```
 
 ---
+
+# Entrada e saída de dados
+
+#### **Entrada**
+
+- `scanf` : É utilizada para fazer a leitura de dados formatados via teclado.
+
+#### Exemplo
+
+[source](../atividades/03_Revisao/03_02_entrada.c)
+```c
+#include <stdio.h>
+
+int main() {
+  int n; // Inicializa a variável do tipo int
+
+  printf("Digite um número: "); // Imprimi na tela a frase "Digite um número: "
+  scanf("%d", &n); // Aguardo usuário realizar a digitação do numero no teclado
+
+  printf("O valor digitado foi %d\n",n); // Imprimi na tela a frase "O valor digitado foi X"
+
+  return 0;
+}
+```
+
+---
+
 # Entrada e saída de dados
 
 #### Tabela - Tipos de dados básicos e representação
@@ -603,6 +604,83 @@ Serão **10 exercícios** relacionados aos conteúdos que irão cair na prova.
    3.  O maior salário
    4.  A percentagem de pessoas com salários até R$ 150,00
 10. Faça um programa em C que exiba na tela os números primos entre 0 até o numero informado pelo usuário.*
+
+---
+
+# Próximos passos
+
+## **Funções (Reutilização de Código, Organização do Código, Abstração)**
+
+```c
+#include <stdio.h>
+
+float calcularMedia(float num1, float num2, float num3) { // Função para calcular a média de três números
+  return (num1 + num2 + num3) / 3.0;
+}
+int main() {
+  float num1, num2, num3;
+  printf("Digite o primeiro número: ");
+  scanf("%f", &num1);
+  printf("Digite o segundo número: ");
+  scanf("%f", &num2);
+  printf("Digite o terceiro número: ");
+  scanf("%f", &num3);
+  float media = calcularMedia(num1, num2, num3); // Calcula a média dos números usando a função calcularMedia
+  printf("A média dos números é: %.2f\n", media); // Exibe a média calculada na tela
+  return 0;
+}
+```
+
+---
+
+# Próximos passos
+
+## **Vetor (array unidimensional, coleção de elementos)**
+
+```c
+#include <stdio.h>
+
+int main() {
+  int vetor[5] = {1, 2, 3, 4, 5}; // Declaração e inicialização de um vetor com 5 elementos
+
+  printf("Elementos do vetor:\n"); // Exibindo os elementos do vetor
+  for (int i = 0; i < 5; i++) {
+    printf("%d ", vetor[i]);
+  }
+  printf("\n");
+  return 0;
+}
+```
+
+---
+
+# Próximos passos
+
+## **Matriz (estrutura bidimensional, linhas e colunas)**
+
+```c
+#include <stdio.h>
+
+int main() {
+  // Declaração e inicialização de uma matriz 2x3
+  int matriz[2][3] = {
+    {1, 2, 3},
+    {4, 5, 6}
+  };
+
+  // Exibindo os elementos da matriz
+  printf("Elementos da matriz:\n");
+  for (int i = 0; i < 2; i++) {
+    for (int j = 0; j < 3; j++) {
+      printf("%d ", matriz[i][j]);
+    }
+    printf("\n");
+  }
+
+  return 0;
+}
+
+```
 
 ---
 
