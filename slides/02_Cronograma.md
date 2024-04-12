@@ -29,8 +29,8 @@ Resumo do cronograma de atividades para matéria de **Linguagem de Programação
 |19 de Abril|Avaliação do primeiro bimestre|
 |||
 |03 de Maio|Função e Passagem de parâmetros por valor e referência (ponteiro)|
-|17 de Maio|Vetor e Matriz|
-|10 de Maio|Estrutura|
+|10 de Maio|Vetor e Matriz|
+|17 de Maio|Estrutura|
 |24 de Maio|Arquivos e Depuração|
 |31 de Maio|Feriado|
 |07 de Junho|Correção de lista de exercícios valendo nota|

@@ -50,10 +50,11 @@ table {
 
 |Data|Descrição|
 |---|---|
-|03 de Maio|Entrada e saída de dados; Condicionais; Repetição;|
-|10 de Maio|Vetor; Matriz;|
-|17 de Maio|Função; Passagem de parâmetro por valor;|
-|24 de Maio|Arquivos; Depuração;|
+|03 de Maio|Função e Passagem de parâmetros por valor e referência (ponteiro)|
+|10 de Maio|Vetor e Matriz|
+|17 de Maio|Estrutura|
+|24 de Maio|Arquivos e Depuração|
+|31 de Maio|Feriado|
 |07 de Junho|Correção de lista de exercícios valendo nota|
 |14 de Junho|Revisão para segunda avaliação|
 |21 de Junho|Avaliação do segundo bimestre|
