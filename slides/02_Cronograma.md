@@ -2,12 +2,11 @@
 marp: true
 theme: custom-default
 footer: '@itorisaiias - https://itorisaias.com.br'
-# backgroundImage: url('https://marp.app/assets/hero-background.svg')
 ---
 
-<!-- _backgroundImage: url('https://marp.app/assets/hero-background.svg') -->
+<!-- _backgroundImage: url('./img/hero-background.svg') -->
 
-![bg left:40% 90%](https://www.fatectq.edu.br/img/logoFatec.svg)
+![bg left:40% 90%](./img/logoFatec.svg)
 # **Linguagem de Programação**
 
 Cronograma.

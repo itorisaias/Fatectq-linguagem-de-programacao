@@ -5,9 +5,9 @@ footer: '@itorisaiias - https://itorisaias.com.br'
 paginate: true
 ---
 
-<!-- _backgroundImage: url('https://marp.app/assets/hero-background.svg') -->
+<!-- _backgroundImage: url('./img/hero-background.svg') -->
 
-![bg left:40% 90%](https://www.fatectq.edu.br/img/logoFatec.svg)
+![bg left:40% 90%](./img/logoFatec.svg)
 # **Linguagem de Programação**
 
 Revisão.
@@ -28,7 +28,7 @@ Revisão.
 
 ---
 
-![bg w:900](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHBlMjlvdDRhM2ZkaHc5cHlqNHRqeDIzd2lrOXI0ZjBkeWJreDR5diZlcD12MV9naWZzX3NlYXJjaCZjdD1n/BpGWitbFZflfSUYuZ9/giphy.gif)
+![bg w:900](./img/BpGWitbFZflfSUYuZ9.webp)
 
 ---
 
@@ -42,6 +42,7 @@ Revisão.
 
 # Variáveis, constantes e tipos de dados
 
+[source](../atividades/03_Revisao/03_01_variaveis_constantes.c)
 ```c
 // constante
 #define PI 3.14
@@ -87,7 +88,7 @@ void main() {
 
 ---
 
-![bg](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcDFqdjZ2Nm0xMnhmanU0NGV0MjZhZjZiaHBuaWhqMG45cmNlb3QwdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZUomWFktUWpFu/giphy-downsized-large.gif)
+![bg](./img/ZUomWFktUWpFu.webp)
 
 ---
 
@@ -107,6 +108,7 @@ void main() {
 
 #### Exemplo
 
+[source](../atividades/03_Revisao/03_02_entrada.c)
 ```c
 #include <stdio.h>
 
@@ -128,6 +130,7 @@ int main() {
 
 #### **Saida**
 
+[source](../atividades/03_Revisao/03_02_saida.c)
 ```c
 #include <stdio.h> // carregamento da biblioteca stdio
 
@@ -163,7 +166,7 @@ int main() {
 
 ---
 
-![bg](https://media.giphy.com/media/11sBLVxNs7v6WA/giphy.gif?cid=790b7611ep1j4354alzfhi0fo9jhvmgsig1cu3xwprpu25uq&ep=v1_gifs_search&rid=giphy.gif&ct=g)
+![bg](./img/11sBLVxNs7v6WA.webp)
 
 ---
 
@@ -178,6 +181,7 @@ int main() {
 
 # Operadores - Aritméticos
 
+[source](../atividades/03_Revisao/03_03_operador_aritmeticos.c)
 ```c
 #include <stdio.h>
 
@@ -213,6 +217,7 @@ int main(void) {
 
 # Operadores - Lógicos
 
+[source](../atividades/03_Revisao/03_03_operador_logico.c)
 ```c
 #include <stdio.h>
 
@@ -243,6 +248,7 @@ int main(void) {
 
 # Operadores - Relacionais
 
+[source](../atividades/03_Revisao/03_03_operador_relacionais.c)
 ```c
 #include <stdio.h>
 
@@ -285,7 +291,7 @@ int main(void) {
 
 ---
 
-![bg](https://media.giphy.com/media/kyLYXonQYYfwYDIeZl/giphy.gif)
+![bg](./img/kyLYXonQYYfwYDIeZl.webp)
 
 ---
 
@@ -320,6 +326,7 @@ Fim
 
 #### Código em C
 
+[source](../atividades/03_Revisao/03_04_condicional.c)
 ```c
 #include <stdio.h>
 
@@ -342,6 +349,7 @@ int main(void) {
 
 #### Código em C
 
+[source](../atividades/03_Revisao/03_04_condicional_else.c)
 ```c
 #include <stdio.h>
 
@@ -366,6 +374,7 @@ int main() {
 
 #### Código em C
 
+[source](../atividades/03_Revisao/03_04_condicional_else_if.c)
 ```c
 #include <stdio.h>
 
@@ -408,6 +417,8 @@ Enquanto (condição) faça
 ## **WHILE**
 
 #### Código em C
+
+[source](../atividades/03_Revisao/03_05_while.c)
 ```c
 #include <stdio.h>
 
@@ -449,6 +460,8 @@ Enquanto (condição)
 ## **DO WHILE**
 
 #### Código em C
+
+[source](../atividades/03_Revisao/03_05_do_while.c)
 ```c
 #include <stdio.h>
 
@@ -495,6 +508,7 @@ for (valor_inicial; condição_final; valor_incremento) {
 
 #### Código em C:
 
+[source](../atividades/03_Revisao/03_05_for.c)
 ```c
 #include <stdio.h>
 
@@ -511,7 +525,7 @@ int main() {
 
 ---
 
-![bg](https://media.giphy.com/media/5UJfr2YxejcY69HenK/giphy.gif?cid=790b7611gvnf65ftghpm9zy9qncoln2gfj02b16zfusntonx&ep=v1_gifs_search&rid=giphy.gif&ct=g)
+![bg](./img/5UJfr2YxejcY69HenK.webp)
 
 ---
 
@@ -538,7 +552,11 @@ Criar um programa em C que converta um valor em reais (BRL) para dólares (USD),
 
 ---
 
-![bg w:700](https://repository-images.githubusercontent.com/189922138/85df1100-8613-11e9-80e2-9f11d176680b)
+![bg w:700](./img/85df1100-8613-11e9-80e2-9f11d176680b.jpg)
+
+---
+
+# Codificando juntos
 
 ---
 
@@ -549,7 +567,7 @@ Serão **10 exercícios** relacionados aos conteúdos que irão cair na prova.
 ---
 
 1. Criar um programa em C que converta um valor em reais (BRL) para dólares (USD), usando a cotação do dólar informada pelo usuário.
-2. Faça um programa em C que leia o salário de um funcioário e calcule o desconto de INSS dada a tabela a seguir:
+2. Faça um programa em C que leia o salário de um funcionário e calcule o desconto de INSS dada a tabela a seguir:
 
     |Salário de contribuição|Alíquota|
     |---|---|
@@ -588,7 +606,7 @@ Serão **10 exercícios** relacionados aos conteúdos que irão cair na prova.
 
 ---
 
-![bg](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHlrMnM5b3BsaWlybHZ0d252MnF3aTYyazhmdGx4NGd1aTJsa3luYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lD76yTC5zxZPG/giphy.gif)
+![bg](./img/lD76yTC5zxZPG.webp)
 
 ---
 

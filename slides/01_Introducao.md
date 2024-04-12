@@ -2,18 +2,17 @@
 marp: true
 theme: custom-default
 footer: '@itorisaiias - https://itorisaias.com.br'
-# backgroundImage: url('https://marp.app/assets/hero-background.svg')
 ---
 
-<!-- _backgroundImage: url('https://marp.app/assets/hero-background.svg') -->
+<!-- _backgroundImage: url('./img/hero-background.svg') -->
 
-![bg left:40% 90%](https://www.fatectq.edu.br/img/logoFatec.svg)
+![bg left:40% 90%](./img/logoFatec.svg)
 # **Linguagem de Programação**
 Material, Cronograma, Ferramentas e assuntos relacionados.
 
 ---
 
-![bg left:40%](https://avatars.githubusercontent.com/u/22206344?v=4)
+![bg left:40%](./img/22206344.png)
 
 # **Whoami**
 ## Itor Isaias
@@ -65,10 +64,10 @@ table {
 # **Ferramentas**
 
 - [CodeBlocks](https://codeforwin.org/c-programming/create-compile-run-c-program-using-codeblocks)
-![h:50px](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/feaf74a2-da81-42f2-9c50-37686d02557a/d73n2y9-fc7e0a66-1dd8-42d2-9aba-29a33990067b.png)
+![h:50px](./img/d73n2y9-fc7e0a66-1dd8-42d2-9aba-29a33990067b.png)
 
 - [Visual Studio Code (VSCode)](https://www.freecodecamp.org/news/how-to-write-and-run-c-cpp-code-on-visual-studio-code/)
-![h:50px](https://th.bing.com/th/id/OIP.GN-sXWNZrf2cTVkA3N1WpgHaHa?rs=1&pid=ImgDetMain)
+![h:50px](./img/OIP.jpg)
 
 ---
 
@@ -86,7 +85,7 @@ table {
 
 ---
 
-![bg](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcW5wY3Y4dzA3am1ncmc3aXM1ZjlzeDNlb25nc2w5M3V3YnExYW0wOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Lopx9eUi34rbq/giphy.gif)
+![bg](./img/Lopx9eUi34rbq.webp)
 
 ---
 
@@ -99,4 +98,4 @@ table {
 
 ---
 
-![bg](https://media.giphy.com/media/3o6MbudLhIoFwrkTQY/giphy.gif)
+![bg](./img/3o6MbudLhIoFwrkTQY.webp)
