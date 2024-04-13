@@ -28,6 +28,10 @@ Revisão.
 
 ---
 
+![qrcode w:500](./img/qrcode_gerado_pelo_bing.png)
+
+---
+
 ![bg w:900](./img/BpGWitbFZflfSUYuZ9.webp)
 
 ---

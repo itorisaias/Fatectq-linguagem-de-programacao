@@ -4,8 +4,9 @@
 #define FALSE 0
 #define faculdade 'fatec taquaritinga'
 
-void main() {
+void main(void) {
   // variáveis
+  int main = 1;
   int idade = 28;
   float taxa_juros = 1.5;
   double premio_mega_sena = 46000000;
