@@ -1,51 +1,83 @@
-// Enunciado: Escreva um programa em C que receba 10 números inteiros do usuário e os armazene em um vetor. Em seguida, o programa deve encontrar e imprimir o maior e o menor número digitado.
+// Escreva um programa em C que receba uma sequência de números inteiros do usuário e determine se a sequência está em ordem crescente, decrescente ou não ordenada
 
-// Entrada:
-// 2
-// 7
+// Entrada 1:
 // 5
-// 19
-// 1
-// 16
-// 22
-// 9
-// 10
-// 4
+// 1 2 3 4 5
 
-// Saida:
-// O maior numero digitado e: 22
-// O menor numero digitado e: 1
+// Saida 1:
+// A sequencia esta em ordem crescente.
+
+// ----------------------------------------
+
+// Entrada 2:
+// 4
+// 5 4 3 2
+
+// Saida 2:
+// A sequencia esta em ordem decrescente.
+
+// ----------------------------------------
+
+// Entrada 3:
+// 6
+// 3 7 1 9 4 2
+
+// Saida 3:
+// A sequencia nao esta ordenada.
+
+// ----------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #include <stdio.h>
 
 int main()
 {
-  int numeros[10];
-  int maior, menor;
+  int numeros[100];
+  int tamanho, ordem = 0;
 
-  printf("Digite 10 numeros inteiros:\n");
+  printf("Digite o tamanho da sequencia (maximo 100):\n");
+  scanf("%d", &tamanho);
 
-  for (int i = 0; i < 10; i++)
-  {
+  printf("Digite %d numeros inteiros:\n", tamanho);
+
+  for (int i = 0; i < tamanho; i++)
     scanf("%d", &numeros[i]);
-  }
 
-  maior = menor = numeros[0];
-
-  for (int i = 1; i < 10; i++)
+  // Verifica se a sequencia esta em ordem crescente
+  for (int i = 0; i < tamanho - 1; i++)
   {
-    if (numeros[i] > maior)
+    if (numeros[i] > numeros[i + 1])
     {
-      maior = numeros[i];
+      ordem = -1;
+      break;
     }
-    if (numeros[i] < menor)
+    else if (numeros[i] < numeros[i + 1])
     {
-      menor = numeros[i];
+      ordem = 1;
+      break;
     }
   }
 
-  printf("O maior numero digitado e: %d\n", maior);
-  printf("O menor numero digitado e: %d\n", menor);
+  if (ordem == 1)
+    printf("A sequencia esta em ordem crescente.\n");
+  else if (ordem == -1)
+    printf("A sequencia esta em ordem decrescente.\n");
+  else
+    printf("A sequencia nao esta ordenada.\n");
 
   return 0;
 }

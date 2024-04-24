@@ -28,7 +28,7 @@ Vetores.
 
 # Definição
 
-- **Vetores:** Em C/C++, vetores são estruturas de dados capazes de armazenar múltiplos valores sob um único nome. Cada valor é acessado através de um índice, que começa em 0 e vai até o tamanho do vetor menos um.
+- **Vetores:** Em C/C++, vetores são estruturas de dados capazes de armazenar múltiplos valores sob um único nome. Cada valor é acessado através de um índice.
 - **Índices de Vetores:** Os índices em C/C++ são usados para identificar as posições dos elementos em um vetor. Eles começam em 0 e vão até o tamanho do vetor menos um.
 
 ---
@@ -47,12 +47,12 @@ Vetores.
 #define MESES 12
 void main() {
   int vet[10];
-  double salarios[TAMANHO];
+  double salarios[MESES];
   char nome[5] = "itor";
 }
 ```
 
-Definir uma posição a mais que a necessária, pois esta armazenará a marca de finalização de cadeia, representada pelo caractere "\0".
+> Para char, definir uma posição a mais que a necessária, pois esta armazenará a marca de finalização de cadeia, representada pelo caractere "\0".
 
 ![w:1000](./img/vetores_exemplo.drawio.svg)
 
@@ -64,13 +64,16 @@ Definir uma posição a mais que a necessária, pois esta armazenará a marca de
 
 ```c
 void main() {
-  int vet[10];
-  char nome[5];
+  int vet[10] = {0, 8, 7, 6, 5, 4, 3, 2, 1, 9};
+  char nome[5] = "itor";
 
-  vet[0] = 1; // Atribui o valor `1` à primeira posição do vetor.
+  vet[0] = 9; // Atribui o valor `9` à primeira posição do vetor.
+  vet[9] = 0; // Atribui o valor `0` à sétima posição do vetor.
   nome[3] = 'b'; // Atribui a letra `b` à quarta posição do vetor.
 }
 ```
+
+![w:1000](./img/vetores_exemplo_atribuicao.drawio.svg)
 
 ---
 
@@ -81,10 +84,9 @@ void main() {
 void main() {
   int vetor[10];
   for (int i=0; i<10; i++)
-    scanf("%d%*c", &vetor[i]);
+    scanf("%d", &vetor[i]);
 }
 ```
-> scanf("%d%*c", &vetor[i]); Lê um número inteiro da entrada padrão e armazena no i-ésimo elemento do vetor, descartando em seguida um caractere da entrada, geralmente uma quebra de linha. Isso limpa o buffer de entrada, prevenindo problemas na próxima leitura.
 
 Nesse exemplo, a estrutura de repetição `for` foi utilizada para garantir que a variável `i` assumisse todos os valores possíveis para o índice do vetor (de O a 9). Assim, para cada execução da repetição, será utilizada uma posição diferente do vetor.
 
@@ -97,7 +99,7 @@ Nesse exemplo, a estrutura de repetição `for` foi utilizada para garantir que 
 void main() {
   int vetor[10];
   for (int i=0; i < 10; i++)
-    scanf("%d%*c", &vetor[i]);
+    scanf("%d", &vetor[i]);
   for (int i=0; i < 10; i++)
     printf("%d ", vetor[i]);
 }
@@ -116,6 +118,29 @@ Nesse exemplo, a estrutura de repetição `for` foi utilizada para garantir que 
 ---
 
 # Exercícios
+
+---
+
+# Ordenação Bubble Sorting
+
+<div class="columns">
+  <img src="./img/bubble_sorting.png" />
+  <img src="./img/140587920-d7aaa511-67df-4fdd-8497-8fe6d988e2db.gif" />
+</div>
+
+---
+
+# Algorítimos de ordenação
+
+- Bubble Sort
+- Selection Sort
+- Insertion Sort
+- ...
+
+Mais referencias:
+- https://imsouza.github.io/posts/algoritmos-de-ordenacao-em-c-1
+- https://terminaldeinformacao.com/2013/05/10/ordenando-vetores-usando-linguagem-c/
+- https://www.devmedia.com.br/algoritmos-de-ordenacao-analise-e-comparacao/28261
 
 ---
 

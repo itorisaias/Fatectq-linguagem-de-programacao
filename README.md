@@ -10,5 +10,5 @@ Você pode acessar os slides das aulas no seguinte link:
 - [02 - Cronograma](https://itorisaias.github.io/Fatectq-linguagem-de-programacao/02)
 - [03 - Revisão](https://itorisaias.github.io/Fatectq-linguagem-de-programacao/03)
 - [04 - Vetor](https://itorisaias.github.io/Fatectq-linguagem-de-programacao/04)
-- [05 - Mátris](https://itorisaias.github.io/Fatectq-linguagem-de-programacao/05)
+- [05 - Matriz](https://itorisaias.github.io/Fatectq-linguagem-de-programacao/05)
 - [06 - Função](https://itorisaias.github.io/Fatectq-linguagem-de-programacao/06)
