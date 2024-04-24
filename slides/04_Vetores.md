@@ -107,7 +107,27 @@ Nesse exemplo, a estrutura de repetição `for` foi utilizada para garantir que 
 
 ---
 
+![w:900](./img/GfaZNzU42Snz6dlGhN.webp)
+
+---
+
+![w:900](./img/CjmvTCZf2U3p09Cn0h.webp)
+
+---
+
 # Exercícios
+
+---
+
+![bg](./img/cXblnKXr2BQOaYnTni.webp)
+
+---
+
+# Lista
+
+![w:480](./img/lista_vetor.svg)
+
+[Lista](https://github.com/itorisaias/Fatectq-linguagem-de-programacao/blob/main/atividades/04_Vetores/Lista.pdf)
 
 ---
 
