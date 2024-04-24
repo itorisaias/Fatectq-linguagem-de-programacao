@@ -55,7 +55,7 @@ jobs:
       - name: Marp Build (README)
         uses: docker://marpteam/marp-cli:latest
         with:
-          args: --theme-set slides/themes -o build/06.html --html -- slides/04_Funcoes.md
+          args: --theme-set slides/themes -o build/06.html --html -- slides/06_Funcoes.md
         env:
           MARP_USER: root:root
       - name: Setup Pages
