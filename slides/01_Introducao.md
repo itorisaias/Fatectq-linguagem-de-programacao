@@ -50,7 +50,8 @@ table {
 
 |Data|Descrição|
 |---|---|
-|03 de Maio|Função e Passagem de parâmetros por valor e referência (ponteiro)|
+|26 de Abril|Função e Passagem de parâmetros por valor e referência (ponteiro)|
+|03 de Maio|Vetor e Matriz|
 |10 de Maio|Vetor e Matriz|
 |17 de Maio|Estrutura|
 |24 de Maio|Arquivos e Depuração|

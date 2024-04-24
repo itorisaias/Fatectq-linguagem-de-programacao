@@ -1,0 +1,71 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="423px" height="157px" viewBox="-0.5 -0.5 423 157" content="&lt;mxfile&gt;&lt;diagram id=&quot;XNqhVPIvyVOF6Uoy5iXt&quot; name=&quot;Page-1&quot;&gt;5VbBjpswEP0apPayAhxI9phkt9tLpUg5tHv0wgBWDUbGSaBf3zGYgBey3VRZqVIvMPNsj8dvPA8css3rJ0nL7JuIgTu+G9cOeXB8f+ERfGqg6YGwA1LJ4g5yB2DPfkEHej16YDFUBusgJQRXrLTBSBQFRMrCqJTiZE9LBI8toKQpTIB9RPkU/c5ilRnUC++Hga/A0sxsvfKX3UBO+8nmJFVGY3EaQeTRIVsphOqsvN4C19zZvHy5MHpOTEKh3rMgMGmopj8bxHhU4xaiwNcGkyy1m3Co15o+xDKVc4Q8NKFm6sfIfkbbvQuM96CL7vZOY5xpnib1ShxkZFLxO0hnNJpjDvIEIgclG5wggVPFjnZxqKlxep53XroTDHf1XXMdSWDK1vS3bGWHUFSmoMyqgUykgjajaaWeUF3ex18t7H28+3E4NLqIvTc64wC19ZuvpaHrSPnBULHmqZBMsVwgvpPtO+RI+OZFopVqixUsYjM4vmleolG8VGXruzMQKyolD86WOOtl+yR6K+8vw9n+fGz/JrFvEgQywyne6HXLuHsEyRIW0Xbg0+d/J9d5Msk0dsLyiSYoqJXd8xhM/ISt4EIOOpEwzl9BlLO0QJdDoiMgPQrZ4WsD5yyO9SabU8YU7Evatv4JPxqISXEoYoj/pBg6JtRvCsT5u2P138po8GmQ8JYRjWUj9faC8LKkjLr3zeYMbyi0vZo+j/B5mUWuZNNq853rL3qgE+gw8HpgWNx61uod3mg8LchrlNuw2AnnR4r5tRpM3MDW4FV4Uw0mEw3uFUF+hP6+o8f/o/4moW8V9345aXDP9aYNHi6v7m90h5+07p4Mf7rk8Tc=&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs/>
+    <g>
+        <path d="M 206.85 81.23 L 199.87 74.07 L 238.35 36.55 Q 240.67 34.29 243.88 33.82 L 297.98 25.88 L 296.46 15.49 L 317.51 28.07 L 300.96 46.17 L 299.43 35.78 L 245.33 43.71 Z" fill="none" stroke="rgb(0, 0, 0)" stroke-linejoin="round" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 297.98 25.88 L 296.46 15.49 L 317.51 28.07 L 300.96 46.17 L 299.43 35.78" fill="none" stroke="rgb(0, 0, 0)" stroke-linejoin="flat" stroke-miterlimit="4" pointer-events="all"/>
+        <rect x="0" y="0" width="203" height="156" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe flex-start; width: 201px; height: 1px; padding-top: 78px; margin-left: 2px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                Algoritimo Primo
+                                <br/>
+                                inicio
+                                <br/>
+                                instrução 1
+                                <br/>
+                                instrução 2
+                                <br/>
+                                <br/>
+                                ehPrimo := verificaPrimo()
+                                <br/>
+                                <br/>
+                                instrução 3
+                                <br/>
+                                fim
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="2" y="82" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px">
+                    Algoritimo Primo...
+                </text>
+            </switch>
+        </g>
+        <path d="M 318.73 79.52 L 322.33 88.84 L 266.86 110.26 Q 264.74 111.07 262.47 110.89 L 226.92 108.08 L 226.09 118.55 L 208.37 101.6 L 228.53 87.64 L 227.71 98.11 L 263.26 100.93 Z" fill="none" stroke="rgb(0, 0, 0)" stroke-linejoin="round" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 226.92 108.08 L 226.09 118.55 L 208.37 101.6 L 228.53 87.64 L 227.71 98.11" fill="none" stroke="rgb(0, 0, 0)" stroke-linejoin="flat" stroke-miterlimit="4" pointer-events="all"/>
+        <rect x="321" y="17" width="101" height="67" fill="none" stroke="none" pointer-events="all"/>
+        <g transform="translate(-0.5 -0.5)">
+            <switch>
+                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe flex-start; width: 99px; height: 1px; padding-top: 51px; margin-left: 323px;">
+                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: left;">
+                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
+                                verificarPrimo
+                                <br/>
+                                inicio
+                                <br/>
+                                instrução
+                                <br/>
+                                fim
+                            </div>
+                        </div>
+                    </div>
+                </foreignObject>
+                <text x="323" y="54" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px">
+                    verificarPrimo...
+                </text>
+            </switch>
+        </g>
+    </g>
+    <switch>
+        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
+        <a transform="translate(0,-5)" xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems" target="_blank">
+            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
+                Text is not SVG - cannot display
+            </text>
+        </a>
+    </switch>
+</svg>

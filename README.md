@@ -6,6 +6,9 @@ Este repositório abriga as apresentações de slides e demais recursos da disci
 
 Você pode acessar os slides das aulas no seguinte link:
 
-- [Linguagem de programação - 01](https://itorisaias.github.io/Fatectq-linguagem-de-programacao/01)
-- [Linguagem de programação - 02](https://itorisaias.github.io/Fatectq-linguagem-de-programacao/02)
-- [Linguagem de programação - 03](https://itorisaias.github.io/Fatectq-linguagem-de-programacao/03)
+- [01 - Apresentação](https://itorisaias.github.io/Fatectq-linguagem-de-programacao/01)
+- [02 - Cronograma](https://itorisaias.github.io/Fatectq-linguagem-de-programacao/02)
+- [03 - Revisão](https://itorisaias.github.io/Fatectq-linguagem-de-programacao/03)
+- [04 - Vetor](https://itorisaias.github.io/Fatectq-linguagem-de-programacao/04)
+- [05 - Mátris](https://itorisaias.github.io/Fatectq-linguagem-de-programacao/05)
+- [06 - Função](https://itorisaias.github.io/Fatectq-linguagem-de-programacao/06)
