@@ -16,7 +16,7 @@ Escreva um programa em C que receba 8 números inteiros do usuário e os armazen
 
 ## Saida:
 ```
-Soma dos elementos: 329
+Soma dos elementos: 369
 ```
 
 ---
