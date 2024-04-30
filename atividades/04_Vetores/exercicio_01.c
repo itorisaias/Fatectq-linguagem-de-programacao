@@ -13,26 +13,6 @@
 // menor: 1
 // invertido: 4 1 3 5 2
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #include <stdio.h>
 
 int main()
@@ -50,9 +30,6 @@ int main()
   }
   printf("soma: %d\n", soma);
 
-
-
-
   // maior e menor
   int maior, menor;
   maior = menor = numeros[0];
@@ -66,9 +43,6 @@ int main()
   }
   printf("maior: %d\n", maior);
   printf("menor: %d\n", menor);
-
-
-
 
   // invertido
   int vetor_invertido[5];

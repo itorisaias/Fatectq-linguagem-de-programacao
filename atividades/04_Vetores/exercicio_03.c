@@ -6,50 +6,23 @@
 // Saida:
 // 9 7 1
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #include <stdio.h>
+#define TAM 5
 
 int main()
 {
-  int numeros[5], vetor_resultante[5];
+  int numeros[TAM], vetor_resultante[TAM];
   int novo_tamanho = 0, indice = 0;
 
-  printf("Digite 5 numeros inteiros:\n");
-  for (int i = 0; i < 5; i++)
+  printf("Digite %d numeros inteiros:\n", TAM);
+  for (int i = 0; i < TAM; i++)
   {
     scanf("%d", &numeros[i]);
     if (numeros[i] % 2 != 0)
       novo_tamanho++;
   }
 
-  for (int i = 0; i < 5; i++)
+  for (int i = 0; i < TAM; i++)
     if (numeros[i] % 2 != 0)
     {
       vetor_resultante[indice] = numeros[i];

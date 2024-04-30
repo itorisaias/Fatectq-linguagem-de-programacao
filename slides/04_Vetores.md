@@ -156,6 +156,6 @@ Mais referencias:
 
 ---
 
-# Referencia
+# Referência
 
 - [Fundamentos da programação de computadores](https://archive.org/details/fundamentos-da-programacao-de-computadores-algoritmos-pascal-c-c-padrao-ansi-e-java-pdfdrive)
