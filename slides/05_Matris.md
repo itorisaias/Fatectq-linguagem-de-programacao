@@ -170,7 +170,7 @@ for (int i = 0; i < 2; i++)
 
 # Lista
 
-
+[Link](https://github.com/itorisaias/Fatectq-linguagem-de-programacao/blob/main/atividades/05_Matris/Lista.pdf)
 
 ---
 
