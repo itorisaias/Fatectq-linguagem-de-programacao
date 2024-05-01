@@ -10,7 +10,7 @@ paginate: true
 ![bg left:40% 90%](./img/logoFatec.svg)
 # **Linguagem de Programação**
 
-Matris.
+Matriz
 
 ---
 
@@ -60,7 +60,7 @@ float X[2][6];
 
 Na declaração do exemplo 1, criou-se uma variável chamada X contendo duas linhas (de 0 a 1) com seis colunas cada (de 0 a 5), capaz de armazenar números reais, como pode ser observado a seguir.
 
-![w:600](./img/matris_exemplo_01.drawio.svg)
+![w:600](./img/matriz_exemplo_01.drawio.svg)
 
 ---
 
@@ -72,7 +72,7 @@ char MAT[4][3];
 
 A declaração do exemplo 2 criou uma variável chamada MAT contendo quatro linhas (de 0 a 3) com três colunas cada (de 0 a 2), capaz de armazenar caracteres, como pode ser observado a seguir.
 
-![w:600](./img/matris_exemplo_02.drawio.svg)
+![w:600](./img/matriz_exemplo_02.drawio.svg)
 
 ---
 
@@ -84,7 +84,7 @@ float Y[2][4][3];
 
 A declaração do exemplo 3 criou uma variável chamada Y contendo duas linhas (de 0 a 1) com quatro colunas cada (de 0 a 3) e profundidade três (de 0 a 2), capaz de armazenar números reais, como pode ser observado a seguir.
 
-![w:600](./img/matris_exemplo_03.drawio.svg)
+![w:600](./img/matriz_exemplo_03.drawio.svg)
 
 ---
 
@@ -98,7 +98,7 @@ X[1][4] = 5;
 
 Atribui o valor 5 à posição identificada pelos índices 1 (2º linha) e 4 (5º coluna).
 
-![w:600](./img/matris_atribuindo_01.drawio.svg)
+![w:600](./img/matriz_atribuindo_01.drawio.svg)
 
 ---
 
@@ -110,7 +110,7 @@ MAT[3][2] = "D";
 
 Atribui a letra D à posição identificada pelos índices 3 (4º linha) e 2 (3º coluna).
 
-![w:600](./img/matris_atribuindo_02.drawio.svg)
+![w:600](./img/matriz_atribuindo_02.drawio.svg)
 
 ---
 
@@ -122,7 +122,7 @@ Y[0][3][1] = 12;
 
 Atribui o valor 12 à posição identificada pelos índices 0 (1º linha), 3 (4º coluna) e 1 (2º profundidade).
 
-![w:600](./img/matris_atribuindo_03.drawio.svg)
+![w:600](./img/matriz_atribuindo_03.drawio.svg)
 
 ---
 
@@ -153,10 +153,10 @@ for (int i = 0; i < 2; i++)
 # Mostrando os elementos
 
 ## **Linha X Coluna**
-![alt text](./img/matris_linha_coluna.png)
+![alt text](./img/matriz_linha_coluna.png)
 
 ## **Coluna X Linha**
-![alt text](./img/matris_coluna_linha.png)
+![alt text](./img/matriz_coluna_linha.png)
 
 ---
 
@@ -170,7 +170,7 @@ for (int i = 0; i < 2; i++)
 
 # Lista
 
-[Link](https://github.com/itorisaias/Fatectq-linguagem-de-programacao/blob/main/atividades/05_Matris/Lista.pdf)
+[Link](https://github.com/itorisaias/Fatectq-linguagem-de-programacao/blob/main/atividades/05_Matriz/Lista.pdf)
 
 ---
 

@@ -1,4 +1,4 @@
-# Lista de Matris
+# Lista de Matriz
 
 ## **Prazos**
 
@@ -172,7 +172,7 @@ Implemente uma versão simplificada do clássico jogo de tabuleiro Batalha Naval
 
 # 09 (*Difícil*)
 ## Enunciado:
-Escreva um programa em C que ordene os elementos de uma matriz de tamanho NxN em ordem não decrescente.
+Escreva um programa em C que ordene os elementos de uma matriz de tamanho NxN em ordem crescente.
 
 ## Entrada:
 ```
