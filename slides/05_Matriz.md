@@ -39,7 +39,7 @@ Matriz
   tipo_dos_dados nome_variável [dimensãol][dimensão2][...][dimensãoN];
 ```
 
-onde:
+Onde:
 - `tipo_dos_dados`: é o tipo dos dados que serão armazenados na matriz;
 - `nome_variável`: é o nome dado à variável do tipo matriz;
 - `[dimensão1]`: representa o tamanho da 1º dimensão da matriz;
@@ -58,7 +58,7 @@ Da mesma maneira como ocorre com os vetores, os índices das dimensões das matr
 float X[2][6];
 ```
 
-Na declaração do exemplo 1, criou-se uma variável chamada X contendo duas linhas (de 0 a 1) com seis colunas cada (de 0 a 5), capaz de armazenar números reais, como pode ser observado a seguir.
+Variável chamada `X` contendo duas linhas (de 0 a 1) com seis colunas cada (de 0 a 5), capaz de armazenar números reais.
 
 ![w:600](./img/matriz_exemplo_01.drawio.svg)
 
@@ -70,7 +70,7 @@ Na declaração do exemplo 1, criou-se uma variável chamada X contendo duas lin
 char MAT[4][3];
 ```
 
-A declaração do exemplo 2 criou uma variável chamada MAT contendo quatro linhas (de 0 a 3) com três colunas cada (de 0 a 2), capaz de armazenar caracteres, como pode ser observado a seguir.
+Variável chamada `MAT` contendo quatro linhas (de 0 a 3) com três colunas cada (de 0 a 2), capaz de armazenar caracteres.
 
 ![w:600](./img/matriz_exemplo_02.drawio.svg)
 
@@ -82,7 +82,7 @@ A declaração do exemplo 2 criou uma variável chamada MAT contendo quatro linh
 float Y[2][4][3];
 ```
 
-A declaração do exemplo 3 criou uma variável chamada Y contendo duas linhas (de 0 a 1) com quatro colunas cada (de 0 a 3) e profundidade três (de 0 a 2), capaz de armazenar números reais, como pode ser observado a seguir.
+Variável chamada `Y` contendo duas linhas (de 0 a 1) com quatro colunas cada (de 0 a 3) e profundidade três (de 0 a 2), capaz de armazenar números reais.
 
 ![w:600](./img/matriz_exemplo_03.drawio.svg)
 
