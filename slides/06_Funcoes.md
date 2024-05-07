@@ -10,7 +10,7 @@ paginate: true
 ![bg left:40% 90%](./img/logoFatec.svg)
 # **Linguagem de Programação**
 
-Funções.
+Funções e procedimentos.
 
 ---
 
@@ -67,7 +67,7 @@ Todos os parâmetros devem ter um tipo;
 
 # Desafio
 
-Faça um programa em C, que dado um valor imprima 'Sim' se for par ou 'Nao' caso não seja.
+Faça um programa em C, que dado um valor imprima 'Sim' se for par ou 'Nao' caso não seja, além de apresentar a tabuada do mesmo.
 
 ---
 
@@ -136,7 +136,7 @@ int main() {
 
 # Desafio
 
-Faça um programa em C, que receba 2 valores e troque os valores entre eles (A -> B) (B -> A), a função main deve ter no máximo 5 linhas.
+Faça um programa em C, que receba 2 valores e troque os valores entre eles (A -> B) (B -> A), a função main deve ter no máximo 4 linhas.
 
 **Saida esperada**
 Valores antes da troca: a = 5, b = 12
@@ -151,15 +151,13 @@ Valores depois da troca: a = 12, b = 5
 ```c
 #include <stdio.h>
 
-int main() {
+void main() {
   int a = 5, b = 10;
-  // scanf("%d %d", &a, &b) // Já utilizamos ponteiro e nem sabíamos...
   printf("Valores antes da troca: a = %d, b = %d\n", a, b);
   int temp = a;
   a = b;
   b = temp;
   printf("Valores depois da troca: a = %d, b = %d\n", a, b);
-  return 0;
 }
 ```
 
@@ -174,12 +172,11 @@ void mudarValores(int *ptr, int *ptr) {
   *ptr1 = *ptr2; // *ptr1 = atualiza o valor do ponteiro
   *ptr2 = temp;
 }
-int main() {
+void main() {
   int a = 5, b = 10;
   printf("Valores antes da troca: a = %d, b = %d\n", a, b);
   mudarValores(&a, &b);
   printf("Valores depois da troca: a = %d, b = %d\n", a, b);
-  return 0;
 }
 ```
 
@@ -199,11 +196,63 @@ int main() {
 
 ---
 
+# Deixando o código mais limpo
+
+Uma dica que podemos utilizar para deixar nossos códigos mais limpo é declara a função antes da função main e implementa-la após para deixar código mais legível.
+
+```c
+#include<stdio.h>
+int soma(int a, int b);
+void main() {
+  int n1 = 5, n2 = 4;
+  printf("Soma dos valores %d e %d é %d\n", n1, n2, soma(n1, n2));
+}
+int soma(int a, int b) {
+  return a + b;
+}
+```
+
+---
+
+# Indo além
+
+Podemos também importar funções prontas de outros arquivos.
+
+arquivo_ola.c
+```c
+#include <stdio.h>
+void digaOla() {
+  printf("Olá\n");
+}
+```
+
+arquivo.c
+```c
+#include "C:\arquivo_ola.c"
+void main() {
+  digaOla();
+}
+```
+
+---
+
+# Relembrando
+
+Já utilizamos varias funções prontas como:
+
+- `prinft`, `scanf` de `stdio.h`
+- `log`, `sqrt` de `math.h`
+- `system`, `qsort` de `stdlib.h`
+
+---
+
 # Duvidas
 
 ---
 
 # Começando Lista de Funções
+
+Refaça a lista 03 (matriz) utilizando funções.
 
 ---
 

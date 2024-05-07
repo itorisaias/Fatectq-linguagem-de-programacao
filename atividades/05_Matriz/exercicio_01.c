@@ -19,24 +19,29 @@
 
 int main() {
   int notas[ALUNOS][NOTAS];
-  int aprovados = 0, reprovados = 0, soma;
+  int aprovados = 0, reprovados = 0, soma = 0;
   float media;
 
   for (int i = 0; i < ALUNOS; i++)
     for (int j = 0; j < NOTAS; j++)
       scanf("%d", &notas[i][j]);
 
-  for (int i = 0; i < ALUNOS; i++) {
-    soma = media = 0;
-    for (int j = 0; j < NOTAS; j++)
-      soma += notas[i][j];
+  for (int aluno = 0; aluno < ALUNOS; aluno++)
+  {
+    soma = 0;
 
-    media = (float) soma / NOTAS;
+    for (int nota = 0; nota < NOTAS; nota++)
+    {
+      soma += notas[aluno][nota];
+    }
 
-    if (media < MEDIA)
-      reprovados++;
-    else
+    media = soma / NOTAS;
+
+    if (media >= MEDIA) {
       aprovados++;
+    } else {
+      reprovados++;
+    }
   }
 
   printf("Aprovados: %d\n", aprovados);

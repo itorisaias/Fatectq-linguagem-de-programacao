@@ -27,7 +27,7 @@ Soma dos elementos: 45
 
 # 02 (*Fácil*)
 ## Enunciado:
-Escreva um programa em C que receba uma matriz (2x3) e retorne a transposta (3x2) dessa matriz.
+Escreva um programa em C que receba uma matriz (3x2) e retorne a transposta (2x3) dessa matriz.
 
 ## Entrada:
 ```
