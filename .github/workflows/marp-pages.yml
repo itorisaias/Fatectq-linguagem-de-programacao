@@ -28,40 +28,46 @@ jobs:
       - uses: actions/checkout@v4
       - name: Copy images
         run: mkdir build && cp -R slides/img build/img && cp -R slides/themes build/themes
-      - name: Marp Build (README)
+      - name: Marp Build (01_Introducao)
         uses: docker://marpteam/marp-cli:latest
         with:
           args: --theme-set slides/themes -o build/01.html --html -- slides/01_Introducao.md
         env:
           MARP_USER: root:root
-      - name: Marp Build (README)
+      - name: Marp Build (02_Cronograma)
         uses: docker://marpteam/marp-cli:latest
         with:
           args: --theme-set slides/themes -o build/02.html --html -- slides/02_Cronograma.md
         env:
           MARP_USER: root:root
-      - name: Marp Build (README)
+      - name: Marp Build (03_Revisao)
         uses: docker://marpteam/marp-cli:latest
         with:
           args: --theme-set slides/themes -o build/03.html --html -- slides/03_Revisao.md
         env:
           MARP_USER: root:root
-      - name: Marp Build (README)
+      - name: Marp Build (04_Vetores)
         uses: docker://marpteam/marp-cli:latest
         with:
           args: --theme-set slides/themes -o build/04.html --html -- slides/04_Vetores.md
         env:
           MARP_USER: root:root
-      - name: Marp Build (README)
+      - name: Marp Build (05_Matriz)
         uses: docker://marpteam/marp-cli:latest
         with:
           args: --theme-set slides/themes -o build/05.html --html -- slides/05_Matriz.md
         env:
           MARP_USER: root:root
-      - name: Marp Build (README)
+      - name: Marp Build (06_Funcoes)
         uses: docker://marpteam/marp-cli:latest
         with:
           args: --theme-set slides/themes -o build/06.html --html -- slides/06_Funcoes.md
+        env:
+          MARP_USER: root:root
+      - name: Marp Build (07_Estruturas)
+        uses: docker://marpteam/marp-cli:latest
+        with:
+          args: --theme-set slides/themes -o build/07.html --html -- slides/07_Estruturas.md
         env:
           MARP_USER: root:root
       - name: Setup Pages

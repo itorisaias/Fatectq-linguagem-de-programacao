@@ -20,7 +20,6 @@ Funções e procedimentos.
 - Função por valor
 - Função por referência
 - Comparação entre passagem por valor e por referência
-- Benefícios das funções por valor e referência
 
 ---
 
@@ -40,6 +39,7 @@ Funções e procedimentos.
 
 ---
 
+atualizar imagem de exemplo
 ![w:700](./img/funcoes.drawio.svg)
 
 ---
@@ -47,7 +47,9 @@ Funções e procedimentos.
 # Função VS Procedimentos
 
 - Função **retornam** resultado.
+<!-- adicionar codigo de exemplo -->
 - Procedimento **não retornam** resultado.
+<!-- adicionar codigo de exemplo -->
 
 ---
 
@@ -56,6 +58,7 @@ Funções e procedimentos.
 Funções podem receber 0 ou N parâmetros;
 Funções sempre tem um tipo de retorno;
 Todos os parâmetros devem ter um tipo;
+<!-- adicionar codigo de exemplo -->
 
 ---
 
@@ -167,7 +170,7 @@ void main() {
 
 ```c
 #include <stdio.h>
-void mudarValores(int *ptr, int *ptr) {
+void mudarValores(int *ptr1, int *ptr2) {
   int temp = *ptr1; // *ptr1 realiza a leitura do valor no ponteiro
   *ptr1 = *ptr2; // *ptr1 = atualiza o valor do ponteiro
   *ptr2 = temp;
@@ -199,6 +202,7 @@ void main() {
 # Deixando o código mais limpo
 
 Uma dica que podemos utilizar para deixar nossos códigos mais limpo é declara a função antes da função main e implementa-la após para deixar código mais legível.
+<!-- pedir para gpt melhorar o texto -->
 
 ```c
 #include<stdio.h>
@@ -236,6 +240,12 @@ void main() {
 
 ---
 
+# Indo além
+
+Faça um programa que imprima o valor de N até 0 sem utilizar estruturas de repetição, em ordem decrescente e depois mude esse código para ficar em ordem crescente.
+
+---
+
 # Relembrando
 
 Já utilizamos varias funções prontas como:
@@ -259,3 +269,5 @@ Refaça a lista 03 (matriz) utilizando funções.
 # Referencia
 
 - [Fundamentos da programação de computadores](https://archive.org/details/fundamentos-da-programacao-de-computadores-algoritmos-pascal-c-c-padrao-ansi-e-java-pdfdrive)
+
+- [Visualize code](https://pythontutor.com/render.html#mode=display)

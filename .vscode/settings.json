@@ -6,5 +6,11 @@
     "./slides/themes/custom-gaia.css",
     "./slides/themes/custom-uncover.css"
   ],
-  "code-runner.runInTerminal": true
+  "code-runner.runInTerminal": true,
+  "files.associations": {
+    "*.eex": "html-eex",
+    "*.leex": "html-eex",
+    "stdio.h": "c",
+    "stdbool.h": "c"
+  }
 }

@@ -12,3 +12,4 @@ Você pode acessar os slides das aulas no seguinte link:
 - [04 - Vetor](https://itorisaias.github.io/Fatectq-linguagem-de-programacao/04)
 - [05 - Matriz](https://itorisaias.github.io/Fatectq-linguagem-de-programacao/05)
 - [06 - Função](https://itorisaias.github.io/Fatectq-linguagem-de-programacao/06)
+- [07 - Estruturas](https://itorisaias.github.io/Fatectq-linguagem-de-programacao/07)
