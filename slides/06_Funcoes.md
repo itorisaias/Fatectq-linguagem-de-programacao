@@ -39,8 +39,7 @@ Funções e procedimentos.
 
 ---
 
-atualizar imagem de exemplo
-![w:700](./img/funcoes.drawio.svg)
+![alt text](./img/funcoes.png)
 
 ---
 
