@@ -47,9 +47,17 @@ atualizar imagem de exemplo
 # Função VS Procedimentos
 
 - Função **retornam** resultado.
-<!-- adicionar codigo de exemplo -->
+```c
+int dobro(int n) {
+  return n * 2;
+}
+```
 - Procedimento **não retornam** resultado.
-<!-- adicionar codigo de exemplo -->
+```c
+void digaOla() {
+  printf("Ola\n");
+}
+```
 
 ---
 
@@ -58,7 +66,11 @@ atualizar imagem de exemplo
 Funções podem receber 0 ou N parâmetros;
 Funções sempre tem um tipo de retorno;
 Todos os parâmetros devem ter um tipo;
-<!-- adicionar codigo de exemplo -->
+```c
+void zeroParametro(){ ... } // Função com zero parâmetro
+void umParametro(int n) { ... } // Função com 1 parâmetro
+void nParametro(int n1, int n2, int n3, int n4) { ... } // Função com 4 parâmetros
+```
 
 ---
 
@@ -199,10 +211,19 @@ void main() {
 
 ---
 
+# Relembrando
+
+Já utilizamos varias funções prontas como:
+
+- `prinft`, `scanf` de `stdio.h`
+- `log`, `sqrt` de `math.h`
+- `system`, `qsort` de `stdlib.h`
+
+---
+
 # Deixando o código mais limpo
 
-Uma dica que podemos utilizar para deixar nossos códigos mais limpo é declara a função antes da função main e implementa-la após para deixar código mais legível.
-<!-- pedir para gpt melhorar o texto -->
+Uma dica útil para tornar nossos códigos mais limpos é declarar a função antes da função principal (main) e implementá-la posteriormente. Isso contribui para uma leitura mais fluente e compreensível do código.
 
 ```c
 #include<stdio.h>
@@ -242,21 +263,13 @@ void main() {
 
 # Indo além
 
-Faça um programa que imprima o valor de N até 0 sem utilizar estruturas de repetição, em ordem decrescente e depois mude esse código para ficar em ordem crescente.
+Desenvolva um programa que exiba os valores de N de forma decrescente até 0, sem o uso de estruturas de repetição, e em seguida adapte-o para que os valores sejam exibidos em ordem crescente.
+
+![w:600](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHFha2NranVvN2J5dTkwMWNla2M2cGlidThzb3Nvem45cnNqYXdzcyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3ov9jQX2Ow4bM5xxuM/giphy.gif)
 
 ---
 
-# Relembrando
-
-Já utilizamos varias funções prontas como:
-
-- `prinft`, `scanf` de `stdio.h`
-- `log`, `sqrt` de `math.h`
-- `system`, `qsort` de `stdlib.h`
-
----
-
-# Duvidas
+![bg](https://media.giphy.com/media/jPAdK8Nfzzwt2/giphy.gif?cid=790b7611tt12w1zmpd6ptudahoyydlzqnhk3c9mb0olhb227&ep=v1_gifs_search&rid=giphy.gif&ct=g)
 
 ---
 
@@ -266,7 +279,7 @@ Refaça a lista 03 (matriz) utilizando funções.
 
 ---
 
-# Referencia
+# Referências
 
 - [Fundamentos da programação de computadores](https://archive.org/details/fundamentos-da-programacao-de-computadores-algoritmos-pascal-c-c-padrao-ansi-e-java-pdfdrive)
 
