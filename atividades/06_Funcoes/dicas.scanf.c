@@ -2,13 +2,14 @@
 
 int main() {
 
-  int soma = 0, n;
+  int soma = 0, h, m, s;
 
   // o scanf ele retorna um inteiro que é quantidade de números que consegui converter conforme voce solicitou no primeiro parâmetro, então verificamos enquanto o retorno for igual á 1, continue lendo.
-  while (scanf("%d", &n) == 1)
-  {
-    soma += n;
-  }
+  // int r = scanf("%d %d", &n, &b);
+  // while (== 1)
+  // {
+  //   soma += n;
+  // }
 
   // Leia duas variáveis do tipo inteiro de uma vez só
   // scanf("%d %d", &n1, &n2); // 9 8
@@ -17,9 +18,9 @@ int main() {
   // scanf("%*s %d", &soma); // banana 1
 
   // Lendo padrões
-  // scanf("%d:%d:%d", &h, &m: &s); // 23:35:18
+  scanf("%d:%d:%d", &h, &m, &s); // 23:35:18
 
-  printf("soma de todos numeros é: %d", soma);
+  printf("%d   %d   %d", h, m, s);
 
   return 0;
 }
