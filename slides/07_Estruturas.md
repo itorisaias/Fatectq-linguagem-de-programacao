@@ -30,6 +30,14 @@ Permitem combinar vários tipos (primitivos) de dados sob um único nome, útil 
 
 ## **abstração**/**agrupamento**
 
+```md
+Estrutura "Pessoa"
+-------------------------
+| nome[50]      | Itor Isaias       |
+| ano_nascimento| 1996              |
+-------------------------
+```
+
 ---
 
 # Sintaxes
@@ -113,9 +121,19 @@ void main() {
 
 # Exercícios
 
-- 01 - Faça a a leitura de um registro nome, idade e sexo sem utilizar struct
-- 02 - Refaça o programa utilizando struct (Pessoa)
-- 03 - Agora adicione uma estrutura nova para salvar a data nascimento de Pessoa
+- 01 - Faça a leitura de um registro nome, idade e sexo sem utilizar struct.
+- 02 - Refaça o programa utilizando struct (Pessoa).
+- 03 - Adicione uma estrutura nova para salvar a data de nascimento de Pessoa.
+
+---
+
+# Boas Práticas
+
+Use nomes significativos para suas estruturas e atributos. Isso melhora a legibilidade do código.
+
+**Exemplo:** Prefira Pessoa a P e ano_nascimento a ano.
+
+Modularize seu código e utilize comentários para descrever a funcionalidade das estruturas e funções.
 
 ---
 
