@@ -124,6 +124,7 @@ void main() {
 
     fclose(file); // Fechar o arquivo
 }
+```
 
 ---
 
