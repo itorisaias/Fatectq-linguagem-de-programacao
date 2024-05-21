@@ -209,6 +209,14 @@ int main() {
 
 ---
 
+![w:900](./img/GfaZNzU42Snz6dlGhN.webp)
+
+---
+
+![w:900](./img/CjmvTCZf2U3p09Cn0h.webp)
+
+---
+
 # Exemplos Práticos e Exercícios
 
 1. Crie um arquivo de texto que armazene uma lista de tarefas.
