@@ -13,3 +13,4 @@ Você pode acessar os slides das aulas no seguinte link:
 - [05 - Matriz](https://itorisaias.github.io/Fatectq-linguagem-de-programacao/05)
 - [06 - Função](https://itorisaias.github.io/Fatectq-linguagem-de-programacao/06)
 - [07 - Estruturas](https://itorisaias.github.io/Fatectq-linguagem-de-programacao/07)
+- [08 - Arquivos](https://itorisaias.github.io/Fatectq-linguagem-de-programacao/08)
