@@ -72,9 +72,7 @@ void main() {
         return;
     }
 
-    if (fclose(file) != 0) { // Fechar o arquivo
-        printf("Erro ao fechar o arquivo.\n");
-    }
+    fclose(file); // Fechar o arquivo
 }
 ```
 
@@ -90,7 +88,7 @@ void main() {
 
 void main() {
     FILE *file;
-    char buffer[256];
+    char texto[256];
 
     file = fopen("exemplo.txt", "r"); // Abrir o arquivo para leitura
 
@@ -99,8 +97,8 @@ void main() {
         return;
     }
 
-    while (fgets(buffer, 256, file) != NULL) { // Ler e imprimir o conteúdo do arquivo
-        printf("%s", buffer);
+    while (fgets(texto, 256, file) != NULL) { // Ler e imprimir o conteúdo do arquivo
+        printf("%s", texto);
     }
 
     fclose(file); // Fechar o arquivo

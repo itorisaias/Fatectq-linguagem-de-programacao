@@ -2,7 +2,9 @@
 #include <stdlib.h>
 #include <string.h>
 
-// Definindo estrutura e funções
+#define TAMANHO 10
+#define ARQUIVO "contatos.bin"
+
 typedef struct
 {
   char nome[100];
@@ -15,12 +17,9 @@ void imprimirPessoa();
 void salvarArquivo();
 void lerArquivo();
 
-// Criando variável global
-#define TAMANHO 10
 Pessoa contatos[TAMANHO];
 int quantidade = 0;
 
-// Função main
 int main()
 {
   int opcao;
@@ -64,7 +63,6 @@ int main()
   return 0;
 }
 
-// Implementação
 int cadastrarPessoa()
 {
   if (quantidade >= TAMANHO)
@@ -92,7 +90,7 @@ int cadastrarPessoa()
   getchar(); // Limpar o buffer do teclado
 
   contatos[quantidade] = novaPessoa;
-  (quantidade)++;
+  quantidade++;
 
   return 1;
 }
@@ -110,7 +108,7 @@ void imprimirPessoa()
 
 void salvarArquivo()
 {
-  FILE *arq = fopen("contatos.txt", "w");
+  FILE *arq = fopen(ARQUIVO, "w");
   if (arq == NULL)
   {
     printf("ERROR: arquivo não pode ser aberto.\n");
@@ -118,20 +116,15 @@ void salvarArquivo()
   }
 
   fprintf(arq, "%d\n", quantidade);
-
-  for (int i = 0; i < quantidade; i++)
-  {
-    fprintf(arq, "%s\n", contatos[i].nome);
-    fprintf(arq, "%d\n", contatos[i].idade);
-    fprintf(arq, "%c\n", contatos[i].sexo);
-  }
-
+  fwrite(contatos, sizeof(Pessoa), quantidade, arq);
   fclose(arq);
+
+  printf("Arquivo salvo!\n");
 }
 
 void lerArquivo()
 {
-  FILE *arq = fopen("contatos.txt", "r");
+  FILE *arq = fopen(ARQUIVO, "r");
   if (arq == NULL)
   {
     printf("ERROR: arquivo não pode ser aberto.\n");
@@ -139,16 +132,8 @@ void lerArquivo()
   }
 
   fscanf(arq, "%d\n", &quantidade);
-
-  for (int i = 0; i < quantidade; i++)
-  {
-    Pessoa pessoa;
-
-    fscanf(arq, "%[^\n]", pessoa.nome);
-    fscanf(arq, "%d\n", &pessoa.idade);
-    fscanf(arq, "%c\n", &pessoa.sexo);
-    contatos[i] = pessoa;
-  }
-
+  fread(contatos, sizeof(Pessoa), quantidade, arq);
   fclose(arq);
+
+  printf("Arquivo carregado!\n");
 }
