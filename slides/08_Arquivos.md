@@ -72,9 +72,14 @@ void main() {
         return;
     }
 
-    fclose(file); // Fechar o arquivo
+    if (fclose(file) != 0) { // Fechar o arquivo
+        printf("Erro ao fechar o arquivo.\n");
+    }
 }
 ```
+
+> Se o arquivo não existir, ele será criado;
+> Se o arquivo já existir, ele será sobreposto por um novo arquivo vazio
 
 ---
 
@@ -155,44 +160,19 @@ void main() {
 
 ---
 
-# Leitura de Arquivos Binários
-
-```c
-#include <stdio.h>
-
-void main() {
-    FILE *file;
-    unsigned char buffer[256];
-    size_t bytesRead;
-
-    file = fopen("exemplo.bin", "rb"); // Abrir um arquivo binário para leitura
-
-    if (file == NULL) { // Verificar se o arquivo foi aberto com sucesso
-        printf("Erro ao abrir o arquivo.\n");
-        return;
-    }
-
-    bytesRead = fread(buffer, 1, sizeof(buffer), file); // Ler o conteúdo binário
-
-    for (size_t i = 0; i < bytesRead; i++) { // Imprimir os bytes lidos
-        printf("%02x ", buffer[i]);
-    }
-    printf("\n");
-
-    fclose(file); // Fechar o arquivo
-}
-```
-
----
-
 # Escrita em Arquivos Binários
 
 ```c
 #include <stdio.h>
 
-int main() {
+typedef struct {
+    char nome[100];
+    int idade;
+} Pessoa;
+
+void main() {
     FILE *file;
-    unsigned char dados[] = {0x00, 0x01, 0x02, 0x03, 0x04};
+    Pessoa pessoa = {"Itor Isaias", 28};
 
     file = fopen("exemplo.bin", "wb"); // Abrir um arquivo binário para escrita
 
@@ -201,11 +181,49 @@ int main() {
         return;
     }
 
-    fwrite(dados, 1, sizeof(dados), file); // Escrever no arquivo
+    fwrite(&pessoa, sizeof(Pessoa), 1, file); // Escrever no arquivo (variavel, tamanho da estrutura, quantidade e vezes, arquivo)
 
     fclose(file); // Fechar o arquivo
 }
 ```
+
+---
+
+# Leitura de Arquivos Binários
+
+```c
+#include <stdio.h>
+
+typedef struct {
+    char nome[100];
+    int idade;
+} Pessoa;
+
+void main() {
+    FILE *file;
+    Pessoa pessoa;
+
+    file = fopen("exemplo.bin", "rb"); // Abrir um arquivo binário para leitura
+
+    if (file == NULL) { // Verificar se o arquivo foi aberto com sucesso
+        printf("Erro ao abrir o arquivo.\n");
+        return;
+    }
+
+    fread(&pessoa, sizeof(Pessoa), 1, file); // Ler o conteúdo binário
+
+    printf("Nome: %s\n", pessoa.nome);
+    printf("Idade: %d\n", pessoa.idade);
+
+    fclose(file); // Fechar o arquivo
+}
+```
+
+---
+
+# Modo de abertura
+
+![alt text](./img/modo_arquivo.png)
 
 ---
 

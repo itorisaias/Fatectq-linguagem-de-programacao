@@ -3,7 +3,8 @@
 #include <string.h>
 
 // Definindo estrutura e funções
-typedef struct {
+typedef struct
+{
   char nome[100];
   int idade;
   char sexo;
@@ -17,17 +18,20 @@ Pessoa contatos[TAMANHO];
 int quantidade = 0;
 
 // Compo main
-int main() {
+int main()
+{
   int opcao;
 
-  do {
+  do
+  {
     printf("0 - Sair\n");
     printf("1 - Cadastrar Pessoa\n");
     printf("2 - Listar Pessoa\n");
     printf("Digite a opcao: ");
     scanf("%d", &opcao);
 
-    switch (opcao) {
+    switch (opcao)
+    {
     case 0:
       printf("Bye!\n");
       break;
@@ -46,8 +50,10 @@ int main() {
 }
 
 // Implementação
-int cadastrarPessoa() {
-  if (quantidade > TAMANHO) {
+int cadastrarPessoa()
+{
+  if (quantidade > TAMANHO)
+  {
     printf("ERROR: vetor de contatos cheio.\n");
     return 0;
   }
@@ -70,8 +76,10 @@ int cadastrarPessoa() {
   return 1;
 }
 
-void imprimirPessoa() {
-  for (int i = 0; i < quantidade; i++) {
+void imprimirPessoa()
+{
+  for (int i = 0; i < quantidade; i++)
+  {
     printf("Nome: %s\n", contatos[i].nome);
     printf("Idade: %d\n", contatos[i].idade);
     printf("Sexo: %c\n", contatos[i].sexo);

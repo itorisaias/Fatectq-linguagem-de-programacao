@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 // Definindo estrutura e funções
-typedef struct {
+typedef struct
+{
   char nome[100];
   int idade;
   char sexo;
@@ -17,12 +19,14 @@ void lerArquivo(Pessoa contatos[], int *quantidade);
 #define TAMANHO 10
 
 // Função main
-int main() {
+int main()
+{
   Pessoa contatos[TAMANHO];
   int quantidade = 0;
   int opcao;
 
-  do {
+  do
+  {
     printf("0 - Sair\n");
     printf("1 - Cadastrar pessoa\n");
     printf("2 - Listar pessoas\n");
@@ -32,12 +36,14 @@ int main() {
     scanf("%d", &opcao);
     getchar(); // Limpar o buffer do teclado
 
-    switch (opcao) {
+    switch (opcao)
+    {
     case 0:
       printf("Bye!\n");
       break;
     case 1:
-      if (!cadastrarPessoa(contatos, &quantidade)) {
+      if (!cadastrarPessoa(contatos, &quantidade))
+      {
         printf("Não foi possível cadastrar a pessoa.\n");
       }
       break;
@@ -59,8 +65,10 @@ int main() {
 }
 
 // Implementação
-int cadastrarPessoa(Pessoa contatos[], int *quantidade) {
-  if (*quantidade >= TAMANHO) {
+int cadastrarPessoa(Pessoa contatos[], int *quantidade)
+{
+  if (*quantidade >= TAMANHO)
+  {
     printf("ERROR: vetor de contatos cheio.\n");
     return 0;
   }
@@ -72,7 +80,8 @@ int cadastrarPessoa(Pessoa contatos[], int *quantidade) {
   novaPessoa.nome[strcspn(novaPessoa.nome, "\n")] = '\0'; // Remover nova linha
 
   printf("Idade: ");
-  if (scanf("%d", &novaPessoa.idade) != 1) {
+  if (scanf("%d", &novaPessoa.idade) != 1)
+  {
     printf("Entrada inválida para idade.\n");
     return 0;
   }
@@ -88,8 +97,10 @@ int cadastrarPessoa(Pessoa contatos[], int *quantidade) {
   return 1;
 }
 
-void imprimirPessoa(const Pessoa contatos[], int quantidade) {
-  for (int i = 0; i < quantidade; i++) {
+void imprimirPessoa(const Pessoa contatos[], int quantidade)
+{
+  for (int i = 0; i < quantidade; i++)
+  {
     printf("Nome: %s\n", contatos[i].nome);
     printf("Idade: %d\n", contatos[i].idade);
     printf("Sexo: %c\n", contatos[i].sexo);
@@ -97,14 +108,17 @@ void imprimirPessoa(const Pessoa contatos[], int quantidade) {
   }
 }
 
-void salvarArquivo(const Pessoa contatos[], int quantidade) {
+void salvarArquivo(const Pessoa contatos[], int quantidade)
+{
   FILE *arq = fopen("contatos.txt", "w");
-  if (arq == NULL) {
+  if (arq == NULL)
+  {
     printf("ERROR: arquivo não pode ser aberto.\n");
     return;
   }
 
-  for (int i = 0; i < quantidade; i++) {
+  for (int i = 0; i < quantidade; i++)
+  {
     fprintf(arq, "%s\n%d\n%c\n", contatos[i].nome, contatos[i].idade,
             contatos[i].sexo);
   }
@@ -112,17 +126,21 @@ void salvarArquivo(const Pessoa contatos[], int quantidade) {
   fclose(arq);
 }
 
-void lerArquivo(Pessoa contatos[], int *quantidade) {
+void lerArquivo(Pessoa contatos[], int *quantidade)
+{
   FILE *arq = fopen("contatos.txt", "r");
-  if (arq == NULL) {
+  if (arq == NULL)
+  {
     printf("ERROR: arquivo não pode ser aberto.\n");
     return;
   }
 
   Pessoa pessoa;
   while (fscanf(arq, " %[^\n] %d %c", pessoa.nome, &pessoa.idade,
-                &pessoa.sexo) == 3) {
-    if (*quantidade >= TAMANHO) {
+                &pessoa.sexo) == 3)
+  {
+    if (*quantidade >= TAMANHO)
+    {
       printf("ERROR: vetor de contatos cheio.\n");
       break;
     }

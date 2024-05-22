@@ -1,0 +1,3 @@
+Olá, Mundo!
+Aprendendo manipulação de arquivos em C.
+Adicionando uma nova linha.
