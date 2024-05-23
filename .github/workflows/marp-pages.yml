@@ -77,6 +77,12 @@ jobs:
           args: --theme-set slides/themes -o build/08.html --html -- slides/08_Arquivos.md
         env:
           MARP_USER: root:root
+      - name: Marp Build (09_Revisao)
+        uses: docker://marpteam/marp-cli:latest
+        with:
+          args: --theme-set slides/themes -o build/09.html --html -- slides/09_Revisao.md
+        env:
+          MARP_USER: root:root
       - name: Setup Pages
         uses: actions/configure-pages@v5.0.0
       - name: Upload artifact
