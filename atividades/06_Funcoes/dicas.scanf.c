@@ -17,6 +17,8 @@ int main() {
   // Ignorando dados de entrada, o * ignora os valores mapeados
   // scanf("%*s %d", &soma); // banana 1
 
+  // fscanf(file, " %[^,],%f,%f,%f,%f", ....);
+
   // Lendo padrões
   scanf("%d:%d:%d", &h, &m, &s); // 23:35:18
 
