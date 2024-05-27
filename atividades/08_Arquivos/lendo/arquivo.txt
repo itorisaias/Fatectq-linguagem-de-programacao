@@ -1,0 +1,10 @@
+Assembly e de comer
+1999
+Aprendendo programa com C
+1992
+Aprendendo programa com Python
+2010
+Programando com GO
+2024
+Utilizando Rust
+2021
