@@ -76,6 +76,30 @@ void main() {
 }
 ```
 
+---
+
+# Escrita em Arquivos de Texto
+
+```c
+#include <stdio.h>
+
+void main() {
+    FILE *file;
+
+    file = fopen("exemplo.txt", "w"); // Abrir um arquivo para escrita
+
+    if (file == NULL) { // Verificar se o arquivo foi aberto com sucesso
+        printf("Erro ao abrir o arquivo.\n");
+        return;
+    }
+
+    fprintf(file, "Olá, Mundo!\n"); // Escrever no arquivo
+    fprintf(file, "Aprendendo manipulação de arquivos em C.\n");
+
+    fclose(file); // Fechar o arquivo
+}
+```
+
 > Se o arquivo não existir, ele será criado;
 > Se o arquivo já existir, ele será sobreposto por um novo arquivo vazio
 
@@ -100,30 +124,6 @@ void main() {
     while (fgets(texto, 256, file) != NULL) { // Ler e imprimir o conteúdo do arquivo
         printf("%s", texto);
     }
-
-    fclose(file); // Fechar o arquivo
-}
-```
-
----
-
-# Escrita em Arquivos de Texto
-
-```c
-#include <stdio.h>
-
-void main() {
-    FILE *file;
-
-    file = fopen("exemplo.txt", "w"); // Abrir um arquivo para escrita
-
-    if (file == NULL) { // Verificar se o arquivo foi aberto com sucesso
-        printf("Erro ao abrir o arquivo.\n");
-        return;
-    }
-
-    fprintf(file, "Olá, Mundo!\n"); // Escrever no arquivo
-    fprintf(file, "Aprendendo manipulação de arquivos em C.\n");
 
     fclose(file); // Fechar o arquivo
 }
