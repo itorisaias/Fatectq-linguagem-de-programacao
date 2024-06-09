@@ -39,14 +39,42 @@ Idade: 30
 
 Escreva um programa que leia o arquivo `pessoa.bin`, modifique a idade da pessoa, e salve novamente no arquivo.
 
-# 5 - Sistema de Series
+# 5 - Sistema de Locadora de Veículos
 
-Desenvolva um sistema em C para gerenciar uma lista de séries. O sistema deve permitir as seguintes operações:
+Desenvolva um sistema em C para gerenciar uma lista de veículos e suas respectivas viagens. O sistema deve permitir as seguintes operações:
 
-- Limpar estado (resetar)
-- Cadastrar nova série
-- Buscar série por nome
-- Ordenar séries por ano
-- Desativar série (marcar como desativada sem removê-la da lista)
+**Operações:**
 
+- Cadastrar novo veículo: 
+    - Permite ao usuário adicionar um novo veículo ao catálogo.
+    - Informações a serem cadastradas: placa, marca e modelo.
+    - Cada veículo pode ter no máximo 4 viagens associadas (data, distância).
 
+- Listar veículos cadastrados:
+    - Exibe todos os veículos atualmente cadastrados no sistema.
+    - Mostra a posição, placa, marca, modelo e total de KM de cada veículo.
+
+- Atualizar informações do veículo:
+    - Permite ao usuário modificar as informações de um veículo existente.
+    - A seleção é feita com base na posição do veículo na lista.
+
+- Remover veículo:
+    - Remove um veículo do catálogo com base na posição selecionada.
+    - A lista é ajustada para preencher a lacuna deixada pelo veículo removido.
+
+- Gerenciar viagens:
+    - Permite adicionar, listar e remover viagens de um veículo específico.
+    - Cada viagem inclui informações como data e distância.
+
+- Exportar catálogo para CSV:
+    - Exporta o catálogo de veículos e suas viagens para um arquivo CSV.
+    - Cada veículo e suas viagens são listados de forma legível
+    - Exemplo de linha do registro: `AAADEF2G45,Chevrolet,Onix,12000KM`.
+
+**Observações:**
+- **Salvar o estado ao sair:** O sistema deve salvar o catálogo de veículos em um arquivo binário (veiculos.bin) ao sair, para garantir a persistência dos dados.
+- **Restaurar o estado ao iniciar:** Ao iniciar, o sistema deve carregar o catálogo de veículos a partir do arquivo binário previamente salvo, restaurando o estado anterior.
+- **Dica:** Realize a operação de abertura e fechamento de arquivos em cada função para evitar problemas com o cursor do arquivo, pois ainda não abordamos essa manipulação em detalhes.
+
+**Nota**
+Utilize o exemplo do código `netflix.c` discutido em sala como base para entender como salvar e carregar o estado do sistema utilizando arquivos binários. Adapte conforme necessário para lidar com os detalhes específicos dos veículos e viagens.
