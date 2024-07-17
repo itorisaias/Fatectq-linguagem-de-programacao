@@ -1,10 +1,5 @@
 # Lista de revisão
 
-## **Prazos**
-
-- Primeiro prazo: 19/04/2024
-- Segundo prazo: 26/04/2024
-
 ## Exercícios
 
 1. Criar um programa em C que converta um valor em reais (BRL) para dólares (USD), usando a cotação do dólar informada pelo usuário.

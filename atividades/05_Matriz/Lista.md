@@ -1,12 +1,5 @@
 # Lista de Matriz
 
-## **Prazos**
-
-- Primeiro prazo: 10/05/2024
-- Segundo prazo: 17/05/2024
-
----
-
 # 01 (*Fácil*)
 ## Enunciado:
 Escreva um programa em C que receba uma matriz 3x3 como entrada e exiba a soma de todos os elementos.

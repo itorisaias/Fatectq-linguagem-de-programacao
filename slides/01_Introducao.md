@@ -1,14 +1,19 @@
 ---
 marp: true
 theme: custom-default
-footer: '@itorisaiias - https://itorisaias.com.br'
+paginate: true
 ---
 
 <!-- _backgroundImage: url('./img/hero-background.svg') -->
 
 ![bg left:40% 90%](./img/logoFatec.svg)
 # **Linguagem de Programação**
-Material, Cronograma, Ferramentas e assuntos relacionados.
+
+<br>
+<br>
+<br>
+
+Material, ferramentas e assuntos relacionados.
 
 ---
 
@@ -31,68 +36,6 @@ Todo conteúdo será disponibilizado previamente no teams, e todas as listas e a
 
 ---
 
-# **Cronograma - Primeiro bimestre**
-
-<style scoped>
-table {
-  font-size: 21px;
-}
-</style>
-
-| Data           | Descrição                                  |
-| -------------- | ------------------------------------------ |
-| 09 de Agosto   | Introdução                                 |
-| 16 de Agosto   | Atividade extra                            |
-| 23 de Agosto   | Estrutura sequencial                       |
-| 30 de Agosto   | Estruturas condicionais                    |
-| 06 de Setembro | Estruturas de repetição                    |
-| 13 de Setembro | Criação de funções com e sem tipo definido |
-| 20 de Setembro | Arrays 1D (Vetores)                        |
-| 27 de Setembro | Revisão para primeira avaliação            |
-| 04 de Outubro  | Avaliação do primeiro bimestre             |
-<!--
-|12 de Abril|Revisão para primeira avaliação|
-|19 de Abril|Avaliação do primeiro bimestre|
--->
-
----
-
-# **Cronograma - Segundo bimestre**
-
-<style scoped>
-table {
-  font-size: 20px;
-}
-</style>
-
-| Data           | Descrição                                  |
-| -------------- | ------------------------------------------ |
-| 11 de Outubro  | Arrays 2D (Matrizes)                       |
-| 18 de Outubro  | Manipulação de strings                     |
-| 25 de Outubro  | Funções                                    |
-| 01 de Novembro | Estruturas                                 |
-| 08 de Novembro | Introdução a arquivos texto                |
-| 15 de Novembro | Atividade extra                            |
-| 22 de Novembro | Arquivos texto e binários                  |
-| 29 de Novembro | Avaliação do segundo bimestre              |
-| 06 de Dezembro | Revisão para segunda avaliação             |
-| 13 de Dezembro | Avaliação substitutiva                     |
-<!-- | 20 de Dezembro |                                            | -->
-<!--
-|26 de Abril|Vetor|
-|03 de Maio|Matriz|
-|10 de Maio|Função e Passagem de parâmetros por valor e referência (ponteiro)|
-|17 de Maio|Estrutura|
-|24 de Maio|Arquivos e Depuração|
-|31 de Maio|Feriado|
-|07 de Junho|Correção de lista de exercícios valendo nota|
-|14 de Junho|Revisão para segunda avaliação|
-|21 de Junho|Avaliação do segundo bimestre|
-|28 de Junho|Avaliação substitutiva|
- -->
-
----
-
 # **Ferramentas**
 
 - [CodeBlocks](https://codeforwin.org/c-programming/create-compile-run-c-program-using-codeblocks)
@@ -105,10 +48,8 @@ table {
 
 # **Avaliação**
 
-- P1 ( ) - Avaliação `8 pontos` **+** (Projeto) `2 pontos`
-- P2 ( ) - Avaliação `8 pontos` **+** (Projeto) `2 pontos`
-
-> Todas avaliações serão feita de forma offline!
+- P1 (04/10) - Avaliação `8 pontos` **+** (Projeto) `2 pontos`
+- P2 (06/12) - Avaliação `8 pontos` **+** (Projeto) `2 pontos`
 
 ## **Média final** = (P1 + P2) / 2
 
@@ -125,8 +66,11 @@ table {
 
 # **Recuperação**
 
-- Recuperação ( ) - Avaliação `10 pontos`
+- Recuperação (13/12) - Avaliação `10 pontos`
 - Substituirá a menor nota (P1 ou P2)
+
+<br>
+<br>
 
 ## **Média final** = (P maior + R) / 2
 

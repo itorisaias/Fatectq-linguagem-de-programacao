@@ -1,10 +1,5 @@
 # Lista de Vetor
 
-## **Prazos**
-
-- Primeiro prazo: 03/05/2024
-- Segundo prazo: 19/05/2024
-
 # 01 (*Fácil*)
 ## Enunciado:
 Escreva um programa em C que receba 8 números inteiros do usuário e os armazene em um vetor. O programa deve calcular e imprimir a soma dos elementos do vetor.
