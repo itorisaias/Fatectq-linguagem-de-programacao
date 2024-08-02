@@ -245,21 +245,21 @@ O sistema deve calcular e exibir os seguintes insights:
 ## Critérios de Avaliação:
 
 **Entrada de Dados (2 pontos)**
-- [] Avaliar se o aluno consegue ler corretamente os dados fornecidos pelo usuário.
-- [] Verificar a utilização correta de funções de entrada (scanf) e validações básicas dos dados de entrada.
+- [ ] Avaliar se o aluno consegue ler corretamente os dados fornecidos pelo usuário.
+- [ ] Verificar a utilização correta de funções de entrada (scanf) e validações básicas dos dados de entrada.
 
 **Armazenamento de Dados (2 pontos)**
-- [] Avaliar se o aluno consegue armazenar os dados corretamente em arrays.
-- [] Verificar se o aluno gerencia corretamente o limite de registros (até 100 registros).
+- [ ] Avaliar se o aluno consegue armazenar os dados corretamente em arrays.
+- [ ] Verificar se o aluno gerencia corretamente o limite de registros (até 100 registros).
 
 **Cálculo de Insights (2 pontos)**
-- [] Avaliar se o aluno implementa corretamente os cálculos dos insights específicos do projeto.
-- [] Verificar a precisão e a lógica usada nos cálculos.
+- [ ] Avaliar se o aluno implementa corretamente os cálculos dos insights específicos do projeto.
+- [ ] Verificar a precisão e a lógica usada nos cálculos.
 
 **Estruturas de Controle (2 pontos)**
-- [] Avaliar se o aluno utiliza corretamente as estruturas de controle, como laços de repetição (for, while) e condicionais (if-else).
-- [] Verificar se o fluxo do programa está claro e funcional.
+- [ ] Avaliar se o aluno utiliza corretamente as estruturas de controle, como laços de repetição (for, while) e condicionais (if-else).
+- [ ] Verificar se o fluxo do programa está claro e funcional.
 
 **Saída de Dados (2 pontos)**
-- [] Avaliar se o aluno exibe corretamente os resultados dos cálculos e insights.
-- [] Verificar a utilização correta de funções de saída (printf) e a clareza das informações exibidas ao usuário.
+- [ ] Avaliar se o aluno exibe corretamente os resultados dos cálculos e insights.
+- [ ] Verificar a utilização correta de funções de saída (printf) e a clareza das informações exibidas ao usuário.
