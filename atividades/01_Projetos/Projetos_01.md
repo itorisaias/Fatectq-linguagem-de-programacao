@@ -7,10 +7,10 @@
 A Escola XYZ deseja gerenciar os dados dos alunos matriculados em seus cursos. Os dados incluem o ID do aluno, nome, idade e curso.
 
 Preparar um programa em C que leia os dados de até 100 alunos contendo as informações:
-a) ID do aluno
-b) Nome
-c) Idade
-d) Curso
+- a) ID do aluno
+- b) Nome
+- c) Idade
+- d) Curso
 
 O sistema deve calcular e exibir os seguintes insights:
 - Quantidade de alunos maiores de 18 anos.
@@ -23,10 +23,10 @@ O sistema deve calcular e exibir os seguintes insights:
 A Biblioteca ABC deseja gerenciar os dados dos livros disponíveis. Os dados incluem o ID do livro, título, autor e ano de publicação.
 
 Preparar um programa em C que leia os dados de até 100 livros contendo as informações:
-a) ID do livro
-b) Título
-c) Autor
-d) Ano de publicação
+- a) ID do livro
+- b) Título
+- c) Autor
+- d) Ano de publicação
 
 O sistema deve calcular e exibir os seguintes insights:
 - Quantidade de livros publicados após o ano 2000.
@@ -39,10 +39,10 @@ O sistema deve calcular e exibir os seguintes insights:
 A Loja XYZ deseja controlar o estoque de seus produtos. Os dados incluem o ID do produto, nome, quantidade e preço.
 
 Preparar um programa em C que leia os dados de até 100 produtos contendo as informações:
-a) ID do produto
-b) Nome
-c) Quantidade
-d) Preço
+- a) ID do produto
+- b) Nome
+- c) Quantidade
+- d) Preço
 
 O sistema deve calcular e exibir os seguintes insights:
 - Quantidade total de produtos em estoque.
@@ -55,10 +55,10 @@ O sistema deve calcular e exibir os seguintes insights:
 O Hotel XYZ deseja gerenciar suas reservas. Os dados incluem o ID da reserva, nome do cliente, data de entrada e data de saída.
 
 Preparar um programa em C que leia os dados de até 100 reservas contendo as informações:
-a) ID da reserva
-b) Nome do cliente
-c) Data de entrada (dia, mês, ano)
-d) Data de saída (dia, mês, ano)
+- a) ID da reserva
+- b) Nome do cliente
+- c) Data de entrada (dia, mês, ano)
+- d) Data de saída (dia, mês, ano)
 
 O sistema deve calcular e exibir os seguintes insights:
 - Quantidade de reservas ativas.
@@ -71,10 +71,10 @@ O sistema deve calcular e exibir os seguintes insights:
 A Empresa XYZ deseja gerenciar as tarefas de seus funcionários. Os dados incluem o ID da tarefa, descrição, data de conclusão e status (concluída ou pendente).
 
 Preparar um programa em C que leia os dados de até 100 tarefas contendo as informações:
-a) ID da tarefa
-b) Descrição
-c) Data de conclusão (dia, mês, ano)
-d) Status (concluída ou pendente)
+- a) ID da tarefa
+- b) Descrição
+- c) Data de conclusão (dia, mês, ano)
+- d) Status (concluída ou pendente)
 
 O sistema deve calcular e exibir os seguintes insights:
 - Quantidade de tarefas concluídas.
@@ -87,10 +87,10 @@ O sistema deve calcular e exibir os seguintes insights:
 O Departamento de Trânsito deseja gerenciar o cadastro de veículos. Os dados incluem o ID do veículo, modelo, ano e placa.
 
 Preparar um programa em C que leia os dados de até 100 veículos contendo as informações:
-a) ID do veículo
-b) Modelo
-c) Ano
-d) Placa
+- a) ID do veículo
+- b) Modelo
+- c) Ano
+- d) Placa
 
 O sistema deve calcular e exibir os seguintes insights:
 - Quantidade de veículos por ano de fabricação.
@@ -103,10 +103,10 @@ O sistema deve calcular e exibir os seguintes insights:
 A Imobiliária XYZ deseja gerenciar os aluguéis de seus imóveis. Os dados incluem o ID do aluguel, endereço do imóvel, nome do locatário e valor do aluguel.
 
 Preparar um programa em C que leia os dados de até 100 aluguéis contendo as informações:
-a) ID do aluguel
-b) Endereço do imóvel
-c) Nome do locatário
-d) Valor do aluguel
+- a) ID do aluguel
+- b) Endereço do imóvel
+- c) Nome do locatário
+- d) Valor do aluguel
 
 O sistema deve calcular e exibir os seguintes insights:
 - Quantidade de aluguéis ativos.
@@ -119,10 +119,10 @@ O sistema deve calcular e exibir os seguintes insights:
 O Consultório Médico XYZ deseja gerenciar o cadastro de pacientes. Os dados incluem o ID do paciente, nome, idade e diagnóstico.
 
 Preparar um programa em C que leia os dados de até 100 pacientes contendo as informações:
-a) ID do paciente
-b) Nome
-c) Idade
-d) Diagnóstico
+- a) ID do paciente
+- b) Nome
+- c) Idade
+- d) Diagnóstico
 
 O sistema deve calcular e exibir os seguintes insights:
 - Quantidade de pacientes maiores de 60 anos.
@@ -135,10 +135,10 @@ O sistema deve calcular e exibir os seguintes insights:
 A Escola XYZ deseja controlar a frequência dos alunos. Os dados incluem o ID do registro, nome do aluno, data e status (presente ou ausente).
 
 Preparar um programa em C que leia os dados de até 100 registros de frequência contendo as informações:
-a) ID do registro
-b) Nome do aluno
-c) Data (dia, mês, ano)
-d) Status (presente ou ausente)
+- a) ID do registro
+- b) Nome do aluno
+- c) Data (dia, mês, ano)
+- d) Status (presente ou ausente)
 
 O sistema deve calcular e exibir os seguintes insights:
 - Quantidade de presenças.
@@ -151,10 +151,10 @@ O sistema deve calcular e exibir os seguintes insights:
 O Restaurante XYZ deseja gerenciar os pedidos de seus clientes. Os dados incluem o ID do pedido, nome do cliente, prato e valor.
 
 Preparar um programa em C que leia os dados de até 100 pedidos contendo as informações:
-a) ID do pedido
-b) Nome do cliente
-c) Prato
-d) Valor
+- a) ID do pedido
+- b) Nome do cliente
+- c) Prato
+- d) Valor
 
 O sistema deve calcular e exibir os seguintes insights:
 - Quantidade de pedidos realizados.
@@ -167,10 +167,10 @@ O sistema deve calcular e exibir os seguintes insights:
 A Escola XYZ deseja controlar as notas dos alunos. Os dados incluem o ID da nota, nome do aluno, disciplina e nota.
 
 Preparar um programa em C que leia os dados de até 100 notas contendo as informações:
-a) ID da nota
-b) Nome do aluno
-c) Disciplina
-d) Nota
+- a) ID da nota
+- b) Nome do aluno
+- c) Disciplina
+- d) Nota
 
 O sistema deve calcular e exibir os seguintes insights:
 - Média das notas.
@@ -180,13 +180,13 @@ O sistema deve calcular e exibir os seguintes insights:
 
 ### Projeto 12: Sistema de Gerenciamento de Contas
 
-O Banco XYZ deseja gerenciar as contas de seus clientes. Os dados incluem o ID da conta, nome do titular, saldo e tipo de conta (corrente ou poupança).
+O Banco XYZ deseja gerenciar as contas de seus clientes. Os dados incluem o ID da conta, nome do titular, saldo e tipo de conta (corrente ou poupanç- a).
 
 Preparar um programa em C que leia os dados de até 100 contas contendo as informações:
-a) ID da conta
-b) Nome do titular
-c) Saldo
-d) Tipo de conta (corrente ou poupança)
+- a) ID da conta
+- b) Nome do titular
+- c) Saldo
+- d) Tipo de conta (corrente ou poupanç- a)
 
 O sistema deve calcular e exibir os seguintes insights:
 - Quantidade de contas correntes e poupanças.
@@ -199,10 +199,10 @@ O sistema deve calcular e exibir os seguintes insights:
 A Empresa XYZ deseja gerenciar o cadastro de fornecedores. Os dados incluem o ID do fornecedor, nome, telefone e email.
 
 Preparar um programa em C que leia os dados de até 100 fornecedores contendo as informações:
-a) ID do fornecedor
-b) Nome
-c) Telefone
-d) Email
+- a) ID do fornecedor
+- b) Nome
+- c) Telefone
+- d) Email
 
 O sistema deve calcular e exibir os seguintes insights:
 - Quantidade de fornecedores cadastrados.
@@ -215,10 +215,10 @@ O sistema deve calcular e exibir os seguintes insights:
 A Biblioteca XYZ deseja gerenciar os empréstimos de livros. Os dados incluem o ID do empréstimo, nome do livro, nome do cliente e data de devolução.
 
 Preparar um programa em C que leia os dados de até 100 empréstimos contendo as informações:
-a) ID do empréstimo
-b) Nome do livro
-c) Nome do cliente
-d) Data de devolução (dia, mês, ano)
+- a) ID do empréstimo
+- b) Nome do livro
+- c) Nome do cliente
+- d) Data de devolução (dia, mês, ano)
 
 O sistema deve calcular e exibir os seguintes insights:
 - Quantidade de empréstimos ativos.
@@ -231,10 +231,10 @@ O sistema deve calcular e exibir os seguintes insights:
 A Empresa XYZ deseja gerenciar os eventos que organiza. Os dados incluem o ID do evento, nome, data e local.
 
 Preparar um programa em C que leia os dados de até 100 eventos contendo as informações:
-a) ID do evento
-b) Nome
-c) Data (dia, mês, ano)
-d) Local
+- a) ID do evento
+- b) Nome
+- c) Data (dia, mês, ano)
+- d) Local
 
 O sistema deve calcular e exibir os seguintes insights:
 - Quantidade de eventos futuros.
