@@ -59,5 +59,3 @@ table {
 | 06 de Dezembro | Avaliação do segundo bimestre              |
 | 13 de Dezembro | Avaliação substitutiva                     |
 | 20 de Dezembro |                                            |
-
----
