@@ -2,245 +2,264 @@
 
 ## Lista de Projetos
 
-### Projeto 1: Sistema de Cadastro de Alunos
+### Projeto 1: Sistema de Gerenciamento de Entregas
+A empresa Transporte Rápido Ltda. oferece serviços de entrega expressa para seus clientes. Os custos de entrega variam de acordo com a distância e o peso da carga.
 
-A Escola XYZ deseja gerenciar os dados dos alunos matriculados em seus cursos. Os dados incluem o ID do aluno, nome, idade e curso.
+Regras de Negócio:
+- Distância até 100 km: R$ 2,50 por km
+- Distância de 101 km até 300 km: R$ 2,00 por km
+- Distância acima de 300 km: R$ 1,50 por km
 
-Preparar um programa em C que leia os dados de até 100 alunos contendo as informações:
-- a) ID do aluno
-- b) Nome
-- c) Idade
-- d) Curso
+Taxa adicional pelo peso da carga:
+- Peso até 10 kg: sem taxa adicional
+- Peso de 11 kg até 20 kg: R$ 20,00 de taxa adicional
+- Peso acima de 20 kg: R$ 40,00 de taxa adicional
 
-O sistema deve calcular e exibir os seguintes insights:
-- Quantidade de alunos maiores de 18 anos.
-- Quantidade de alunos em cada curso.
-- O ID do aluno mais jovem.
-- A idade média dos alunos.
-
-### Projeto 2: Sistema de Gerenciamento de Livros
-
-A Biblioteca ABC deseja gerenciar os dados dos livros disponíveis. Os dados incluem o ID do livro, título, autor e ano de publicação.
-
-Preparar um programa em C que leia os dados de até 100 livros contendo as informações:
-- a) ID do livro
-- b) Título
-- c) Autor
-- d) Ano de publicação
+Preparar um programa em C que leia os dados de N entregas contendo as informações:
+- a) Número da entrega
+- b) Distância em km
+- c) Peso da carga em kg
 
 O sistema deve calcular e exibir os seguintes insights:
-- Quantidade de livros publicados após o ano 2000.
-- O ID do livro mais antigo.
-- A média de anos de publicação dos livros.
-- O título do livro mais recente.
+- A média do valor de todos os fretes.
+- A média dos fretes com distância acima de 300 km.
+- O número da entrega com frete de maior valor.
+- O percentual dos fretes com peso acima de 20 kg em relação ao número total de fretes.
+- O total geral de km informados.
+- Ordenar as entregas pelo valor do frete (decrescente).
 
-### Projeto 3: Sistema de Controle de Estoque
+### Projeto 2: Sistema de Gerenciamento de Compras Online
+A Loja Virtual XYZ deseja gerenciar os pedidos de compras online de seus clientes. O custo do frete varia de acordo com a localização e o peso do pedido.
 
-A Loja XYZ deseja controlar o estoque de seus produtos. Os dados incluem o ID do produto, nome, quantidade e preço.
+Regras de Negócio:
+- Localização na mesma cidade: R$ 5,00 por pedido
+- Localização no mesmo estado: R$ 10,00 por pedido
+- Localização em outro estado: R$ 20,00 por pedido
 
-Preparar um programa em C que leia os dados de até 100 produtos contendo as informações:
-- a) ID do produto
-- b) Nome
-- c) Quantidade
-- d) Preço
+Taxa adicional pelo peso do pedido:
+- Peso até 5 kg: sem taxa adicional
+- Peso de 6 kg até 15 kg: R$ 15,00 de taxa adicional
+- Peso acima de 15 kg: R$ 30,00 de taxa adicional
 
-O sistema deve calcular e exibir os seguintes insights:
-- Quantidade total de produtos em estoque.
-- O ID do produto com maior quantidade em estoque.
-- O valor total do estoque (soma do preço de todos os produtos).
-- O nome do produto mais caro.
-
-### Projeto 4: Sistema de Reservas de Hotel
-
-O Hotel XYZ deseja gerenciar suas reservas. Os dados incluem o ID da reserva, nome do cliente, data de entrada e data de saída.
-
-Preparar um programa em C que leia os dados de até 100 reservas contendo as informações:
-- a) ID da reserva
-- b) Nome do cliente
-- c) Data de entrada (dia, mês, ano)
-- d) Data de saída (dia, mês, ano)
+Preparar um programa em C que leia os dados de N pedidos contendo as informações:
+- a) Número do pedido
+- b) Localização do cliente (mesma cidade, mesmo estado, outro estado)
+- c) Peso do pedido em kg
 
 O sistema deve calcular e exibir os seguintes insights:
-- Quantidade de reservas ativas.
-- O ID da reserva com data de saída mais próxima.
-- A média de dias de estadia das reservas.
-- O nome do cliente com a reserva mais longa.
+- A média do valor de todos os fretes.
+- A média dos fretes para clientes em outro estado.
+- O número do pedido com frete de maior valor.
+- O percentual dos fretes com peso acima de 15 kg em relação ao número total de pedidos.
+- O total geral de pedidos por localização.
+- Ordenar os pedidos pelo valor do frete (decrescente).
 
-### Projeto 5: Sistema de Gerenciamento de Tarefas
+### Projeto 3: Sistema de Gerenciamento de Reservas de Eventos
+A Empresa de Eventos ABC deseja gerenciar as reservas para seus eventos. O custo da reserva varia de acordo com o tipo de evento e o número de participantes.
 
-A Empresa XYZ deseja gerenciar as tarefas de seus funcionários. Os dados incluem o ID da tarefa, descrição, data de conclusão e status (concluída ou pendente).
+Regras de Negócio:
+- Evento corporativo: R$ 100,00 por participante
+- Evento social: R$ 80,00 por participante
+- Evento educacional: R$ 60,00 por participante
 
-Preparar um programa em C que leia os dados de até 100 tarefas contendo as informações:
-- a) ID da tarefa
-- b) Descrição
-- c) Data de conclusão (dia, mês, ano)
-- d) Status (concluída ou pendente)
+Taxa adicional pelo número de participantes:
+- Até 50 participantes: sem taxa adicional
+- De 51 até 100 participantes: R$ 200,00 de taxa adicional
+- Acima de 100 participantes: R$ 500,00 de taxa adicional
 
-O sistema deve calcular e exibir os seguintes insights:
-- Quantidade de tarefas concluídas.
-- Quantidade de tarefas pendentes.
-- O ID da tarefa mais antiga pendente.
-- O percentual de tarefas concluídas em relação ao total de tarefas.
-
-### Projeto 6: Sistema de Cadastro de Veículos
-
-O Departamento de Trânsito deseja gerenciar o cadastro de veículos. Os dados incluem o ID do veículo, modelo, ano e placa.
-
-Preparar um programa em C que leia os dados de até 100 veículos contendo as informações:
-- a) ID do veículo
-- b) Modelo
-- c) Ano
-- d) Placa
+Preparar um programa em C que leia os dados de N reservas contendo as informações:
+- a) Número da reserva
+- b) Tipo de evento (corporativo, social, educacional)
+- c) Número de participantes
 
 O sistema deve calcular e exibir os seguintes insights:
-- Quantidade de veículos por ano de fabricação.
-- O ID do veículo mais antigo cadastrado.
-- A média de anos de fabricação dos veículos.
-- O modelo do veículo mais novo.
+- A média do valor de todas as reservas.
+- A média das reservas para eventos corporativos.
+- O número da reserva com maior valor.
+- O percentual das reservas com mais de 100 participantes em relação ao número total de reservas.
+- O total geral de participantes em todos os eventos.
+- Ordenar as reservas pelo valor (decrescente).
 
-### Projeto 7: Sistema de Gerenciamento de Aluguéis
+### Projeto 4: Sistema de Gerenciamento de Vendas de Produtos
+A Loja XYZ deseja gerenciar as vendas de seus produtos. O preço dos produtos varia de acordo com a categoria e a quantidade vendida.
 
-A Imobiliária XYZ deseja gerenciar os aluguéis de seus imóveis. Os dados incluem o ID do aluguel, endereço do imóvel, nome do locatário e valor do aluguel.
+Regras de Negócio:
+- Categoria A: R$ 50,00 por unidade
+- Categoria B: R$ 30,00 por unidade
+- Categoria C: R$ 20,00 por unidade
 
-Preparar um programa em C que leia os dados de até 100 aluguéis contendo as informações:
-- a) ID do aluguel
-- b) Endereço do imóvel
-- c) Nome do locatário
-- d) Valor do aluguel
+Taxa adicional pela quantidade vendida:
+- Até 10 unidades: sem taxa adicional
+- De 11 até 50 unidades: 5% de desconto
+- Acima de 50 unidades: 10% de desconto
 
-O sistema deve calcular e exibir os seguintes insights:
-- Quantidade de aluguéis ativos.
-- O ID do aluguel com maior valor.
-- A média dos valores dos aluguéis.
-- O endereço do imóvel com menor valor de aluguel.
-
-### Projeto 8: Sistema de Cadastro de Pacientes
-
-O Consultório Médico XYZ deseja gerenciar o cadastro de pacientes. Os dados incluem o ID do paciente, nome, idade e diagnóstico.
-
-Preparar um programa em C que leia os dados de até 100 pacientes contendo as informações:
-- a) ID do paciente
-- b) Nome
-- c) Idade
-- d) Diagnóstico
+Preparar um programa em C que leia os dados de N vendas contendo as informações:
+- a) Número da venda
+- b) Categoria do produto (A, B, C)
+- c) Quantidade vendida
 
 O sistema deve calcular e exibir os seguintes insights:
-- Quantidade de pacientes maiores de 60 anos.
-- O ID do paciente mais jovem cadastrado.
-- A média de idade dos pacientes.
-- O diagnóstico mais comum.
+- A média do valor de todas as vendas.
+- A média das vendas de produtos da categoria A.
+- O número da venda com maior valor.
+- O percentual das vendas com mais de 50 unidades em relação ao número total de vendas.
+- O total geral de unidades vendidas.
+- Ordenar as vendas pelo valor (decrescente).
 
-### Projeto 9: Sistema de Controle de Frequência Escolar
+### Projeto 5: Sistema de Gerenciamento de Serviços de Consultoria
+A Empresa de Consultoria XYZ deseja gerenciar os serviços prestados aos seus clientes. O custo dos serviços varia de acordo com a duração e o tipo de consultoria.
 
-A Escola XYZ deseja controlar a frequência dos alunos. Os dados incluem o ID do registro, nome do aluno, data e status (presente ou ausente).
+Regras de Negócio:
+- Consultoria estratégica: R$ 200,00 por hora
+- Consultoria financeira: R$ 150,00 por hora
+- Consultoria de TI: R$ 100,00 por hora
 
-Preparar um programa em C que leia os dados de até 100 registros de frequência contendo as informações:
-- a) ID do registro
-- b) Nome do aluno
-- c) Data (dia, mês, ano)
-- d) Status (presente ou ausente)
+Taxa adicional pela duração do serviço:
+- Até 5 horas: sem taxa adicional
+- De 6 até 20 horas: R$ 300,00 de taxa adicional
+- Acima de 20 horas: R$ 600,00 de taxa adicional
 
-O sistema deve calcular e exibir os seguintes insights:
-- Quantidade de presenças.
-- Quantidade de ausências.
-- O percentual de presenças em relação ao total de registros.
-- O nome do aluno com mais presenças.
-
-### Projeto 10: Sistema de Gerenciamento de Pedidos
-
-O Restaurante XYZ deseja gerenciar os pedidos de seus clientes. Os dados incluem o ID do pedido, nome do cliente, prato e valor.
-
-Preparar um programa em C que leia os dados de até 100 pedidos contendo as informações:
-- a) ID do pedido
-- b) Nome do cliente
-- c) Prato
-- d) Valor
+Preparar um programa em C que leia os dados de N serviços contendo as informações:
+- a) Número do serviço
+- b) Tipo de consultoria (estratégica, financeira, TI)
+- c) Duração em horas
 
 O sistema deve calcular e exibir os seguintes insights:
-- Quantidade de pedidos realizados.
-- O ID do pedido com maior valor.
-- A média dos valores dos pedidos.
-- O prato mais pedido.
+- A média do valor de todos os serviços.
+- A média dos serviços de consultoria estratégica.
+- O número do serviço com maior valor.
+- O percentual dos serviços com duração acima de 20 horas em relação ao número total de serviços.
+- O total geral de horas prestadas.
+- Ordenar os serviços pelo valor (decrescente).
 
-### Projeto 11: Sistema de Controle de Notas
+### Projeto 6: Sistema de Gerenciamento de Aluguel de Carros
+A empresa Rent-A-Car oferece serviços de aluguel de carros. O custo do aluguel varia de acordo com a categoria do carro e o número de dias de aluguel.
 
-A Escola XYZ deseja controlar as notas dos alunos. Os dados incluem o ID da nota, nome do aluno, disciplina e nota.
+Regras de Negócio:
+- Categoria Econômica: R$ 50,00 por dia
+- Categoria Intermediária: R$ 75,00 por dia
+- Categoria Luxo: R$ 100,00 por dia
 
-Preparar um programa em C que leia os dados de até 100 notas contendo as informações:
-- a) ID da nota
-- b) Nome do aluno
-- c) Disciplina
-- d) Nota
+Taxa adicional pelo número de dias:
+- Até 3 dias: sem taxa adicional
+- De 4 até 7 dias: R$ 100,00 de taxa adicional
+- Acima de 7 dias: R$ 200,00 de taxa adicional
 
-O sistema deve calcular e exibir os seguintes insights:
-- Média das notas.
-- A nota mais alta e a nota mais baixa.
-- O ID da nota mais alta.
-- O nome do aluno com a nota mais baixa.
-
-### Projeto 12: Sistema de Gerenciamento de Contas
-
-O Banco XYZ deseja gerenciar as contas de seus clientes. Os dados incluem o ID da conta, nome do titular, saldo e tipo de conta (corrente ou poupanç- a).
-
-Preparar um programa em C que leia os dados de até 100 contas contendo as informações:
-- a) ID da conta
-- b) Nome do titular
-- c) Saldo
-- d) Tipo de conta (corrente ou poupanç- a)
+Preparar um programa em C que leia os dados de N aluguéis contendo as informações:
+- a) Número do aluguel
+- b) Categoria do carro (Econômica, Intermediária, Luxo)
+- c) Número de dias de aluguel
 
 O sistema deve calcular e exibir os seguintes insights:
-- Quantidade de contas correntes e poupanças.
-- O ID da conta com maior saldo.
-- A média dos saldos das contas.
-- O nome do titular da conta com menor saldo.
+- A média do valor de todos os aluguéis.
+- A média dos aluguéis de carros da categoria Luxo.
+- O número do aluguel com maior valor.
+- O percentual dos aluguéis com mais de 7 dias em relação ao número total de aluguéis.
+- O total geral de dias de aluguel.
+- Ordenar os aluguéis pelo valor (decrescente).
 
-### Projeto 13: Sistema de Cadastro de Fornecedores
+### Projeto 7: Sistema de Gerenciamento de Pacotes Turísticos
+A agência de viagens HappyTravel oferece pacotes turísticos para seus clientes. O custo dos pacotes varia de acordo com o destino e o número de dias de viagem.
 
-A Empresa XYZ deseja gerenciar o cadastro de fornecedores. Os dados incluem o ID do fornecedor, nome, telefone e email.
+Regras de Negócio:
+- Destino Nacional: R$ 200,00 por dia
+- Destino Internacional: R$ 400,00 por dia
 
-Preparar um programa em C que leia os dados de até 100 fornecedores contendo as informações:
-- a) ID do fornecedor
-- b) Nome
-- c) Telefone
-- d) Email
+Taxa adicional pelo número de dias:
+- Até 5 dias: sem taxa adicional
+- De 6 até 10 dias: R$ 500,00 de taxa adicional
+- Acima de 10 dias: R$ 1000,00 de taxa adicional
 
-O sistema deve calcular e exibir os seguintes insights:
-- Quantidade de fornecedores cadastrados.
-- O ID do fornecedor com o nome mais longo.
-- A média de caracteres dos nomes dos fornecedores.
-- O email mais frequente (domínio).
-
-### Projeto 14: Sistema de Controle de Empréstimos
-
-A Biblioteca XYZ deseja gerenciar os empréstimos de livros. Os dados incluem o ID do empréstimo, nome do livro, nome do cliente e data de devolução.
-
-Preparar um programa em C que leia os dados de até 100 empréstimos contendo as informações:
-- a) ID do empréstimo
-- b) Nome do livro
-- c) Nome do cliente
-- d) Data de devolução (dia, mês, ano)
+Preparar um programa em C que leia os dados de N pacotes contendo as informações:
+- a) Número do pacote
+- b) Tipo de destino (Nacional, Internacional)
+- c) Número de dias de viagem
 
 O sistema deve calcular e exibir os seguintes insights:
-- Quantidade de empréstimos ativos.
-- O ID do empréstimo mais antigo.
-- A média de dias dos empréstimos.
-- O nome do cliente com mais empréstimos.
+- A média do valor de todos os pacotes.
+- A média dos pacotes para destinos internacionais.
+- O número do pacote com maior valor.
+- O percentual dos pacotes com mais de 10 dias em relação ao número total de pacotes.
+- O total geral de dias de viagem.
+- Ordenar os pacotes pelo valor (decrescente).
 
-### Projeto 15: Sistema de Gerenciamento de Eventos
+### Projeto 8: Sistema de Gerenciamento de Assinaturas de Revistas
+A Editora Revistas & Cia. oferece serviços de assinatura de revistas. O custo da assinatura varia de acordo com a categoria da revista e a duração da assinatura.
 
-A Empresa XYZ deseja gerenciar os eventos que organiza. Os dados incluem o ID do evento, nome, data e local.
+Regras de Negócio:
+- Categoria Ciência: R$ 30,00 por mês
+- Categoria Tecnologia: R$ 25,00 por mês
+- Categoria Entretenimento: R$ 20,00 por mês
 
-Preparar um programa em C que leia os dados de até 100 eventos contendo as informações:
-- a) ID do evento
-- b) Nome
-- c) Data (dia, mês, ano)
-- d) Local
+Taxa adicional pela duração da assinatura:
+- Até 6 meses: sem taxa adicional
+- De 7 até 12 meses: R$ 50,00 de taxa adicional
+- Acima de 12 meses: R$ 100,00 de taxa adicional
+
+Preparar um programa em C que leia os dados de N assinaturas contendo as informações:
+- a) Número da assinatura
+- b) Categoria da revista (Ciência, Tecnologia, Entretenimento)
+- c) Duração em meses
 
 O sistema deve calcular e exibir os seguintes insights:
-- Quantidade de eventos futuros.
-- O ID do evento mais próximo.
-- A média de dias até os eventos.
-- O local com mais eventos.
+- A média do valor de todas as assinaturas.
+- A média das assinaturas de revistas da categoria Ciência.
+- O número da assinatura com maior valor.
+- O percentual das assinaturas com duração acima de 12 meses em relação ao número total de assinaturas.
+- O total geral de meses de assinaturas.
+- Ordenar as assinaturas pelo valor (decrescente).
+
+### Projeto 9: Sistema de Gerenciamento de Hospedagem
+O Hotel Confort oferece serviços de hospedagem para seus clientes. O custo da hospedagem varia de acordo com o tipo de quarto e o número de noites.
+
+Regras de Negócio:
+- Quarto Standard: R$ 150,00 por noite
+- Quarto Luxo: R$ 250,00 por noite
+- Suíte: R$ 400,00 por noite
+
+Taxa adicional pelo número de noites:
+- Até 3 noites: sem taxa adicional
+- De 4 até 7 noites: R$ 200,00 de taxa adicional
+- Acima de 7 noites: R$ 500,00 de taxa adicional
+
+Preparar um programa em C que leia os dados de N hospedagens contendo as informações:
+- a) Número da hospedagem
+- b) Tipo de quarto (Standard, Luxo, Suíte)
+- c) Número de noites
+
+O sistema deve calcular e exibir os seguintes insights:
+- A média do valor de todas as hospedagens.
+- A média das hospedagens em suítes.
+- O número da hospedagem com maior valor.
+- O percentual das hospedagens com mais de 7 noites em relação ao número total de hospedagens.
+- O total geral de noites hospedadas.
+- Ordenar as hospedagens pelo valor (decrescente).
+
+### Projeto 10: Sistema de Gerenciamento de Planos de Saúde
+A Seguradora Saúde Total oferece diversos planos de saúde. O custo do plano varia de acordo com a faixa etária do cliente e a duração do contrato.
+
+Regras de Negócio:
+- Até 18 anos: R$ 100,00 por mês
+- De 19 a 40 anos: R$ 200,00 por mês
+- Acima de 40 anos: R$ 300,00 por mês
+
+Taxa adicional pela duração do contrato:
+- Até 12 meses: sem taxa adicional
+- De 13 até 24 meses: R$ 300,00 de taxa adicional
+- Acima de 24 meses: R$ 600,00 de taxa adicional
+
+Preparar um programa em C que leia os dados de N contratos contendo as informações:
+- a) Número do contrato
+- b) Faixa etária do cliente (até 18 anos, 19 a 40 anos, acima de 40 anos)
+- c) Duração em meses
+
+O sistema deve calcular e exibir os seguintes insights:
+- A média do valor de todos os contratos.
+- A média dos contratos de clientes acima de 40 anos.
+- O número do contrato com maior valor.
+- O percentual dos contratos com duração acima de 24 meses em relação ao número total de contratos.
+- O total geral de meses contratados.
+- Ordenar os contratos pelo valor (decrescente).
 
 ## Critérios de Avaliação:
 
