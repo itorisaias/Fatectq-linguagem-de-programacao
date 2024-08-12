@@ -1,5 +1,7 @@
 # Projetos primeiro bimestre
 
+O objetivo deste projeto é que cada grupo desenvolva uma aplicação prática que permita aplicar os conhecimentos adquiridos em sala de aula e revisar o material estudado.
+
 ## Grupo X Aluno
 
 > Para os alunos que ainda não estão em um grupo, por favor, procurem o professor para informar a formação da equipe (máximo de 3 alunos por grupo).
@@ -59,6 +61,8 @@
 
 ## Grupo X Projeto
 
+> Ao clicar no link do projeto, você será redirecionado para o enunciado detalhado do projeto.
+
 |Projeto|Grupo|
 |---|---|
 |Grupo 01|[Projeto 10](./Projetos_01/10.c)|
@@ -82,7 +86,7 @@
 |        |[Projeto 18](./Projetos_01/18.c)|
 |        |[Projeto 14](./Projetos_01/14.c)|
 
-## Critérios de Avaliação:
+<!-- ## Critérios de Avaliação:
 
 **Entrada de Dados**
 - [ ] Avaliar se o aluno consegue ler corretamente os dados fornecidos pelo usuário.
@@ -102,4 +106,4 @@
 
 **Saída de Dados**
 - [ ] Avaliar se o aluno exibe corretamente os resultados dos cálculos e insights.
-- [ ] Verificar a utilização correta de funções de saída (printf) e a clareza das informações exibidas ao usuário.
+- [ ] Verificar a utilização correta de funções de saída (printf) e a clareza das informações exibidas ao usuário. -->
