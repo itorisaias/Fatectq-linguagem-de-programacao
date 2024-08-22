@@ -21,7 +21,7 @@ O objetivo deste projeto é que cada grupo desenvolva uma aplicação prática q
 |Grupo 04|Guilherme Goes Luiz                            |
 |Grupo 05|Enzo Stoque Zeferino                           |
 |Grupo 05|Saulo Pereira da Silva                         |
-|Grupo 05|Gabriel Rodrigues de Oliveira                  |
+|Grupo 05|Gabriely sassi                                 |
 |Grupo 06|João Francisco Leão Magi                       |
 |Grupo 06|Raul Marques Serrano                           |
 |Grupo 07|Kevin Gabriel Siqueira                         |
@@ -53,7 +53,7 @@ O objetivo deste projeto é que cada grupo desenvolva uma aplicação prática q
 |        |Guilherme da silva simao                       |
 |        |Vitor gibertoni lumpano                        |
 |        |Livea mendes de vasconcelos                    |
-|        |Gabriely sassi                                 |
+|        |Gabriel Rodrigues de Oliveira                  |
 |        |Gustavo henrique rodrigues                     |
 |        |Marcos renato dias                             |
 |        |Gustavo felipe penha                           |
