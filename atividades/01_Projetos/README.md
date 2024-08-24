@@ -50,12 +50,12 @@ O objetivo deste projeto é que cada grupo desenvolva uma aplicação prática q
 |Grupo 16|Bruna scaramuzza rodrigues                     |
 |Grupo 16|Tainara mariana da silva                       |
 |Grupo 16|Gustavo henrique rodrigues                     |
+|Grupo 17|Livea mendes de vasconcelos                    |
 |        |Aparecida Daniela Mendes Manzi                 |
 |        |Jeferson vitor pereira                         |
 |        |Joao vitor leoncio                             |
 |        |Vinicius ferraz castro                         |
 |        |Vitor gibertoni lumpano                        |
-|        |Livea mendes de vasconcelos                    |
 |        |Marcos renato dias                             |
 |        |Juliana monielly da silva moreira chicotti     |
 
@@ -81,7 +81,7 @@ O objetivo deste projeto é que cada grupo desenvolva uma aplicação prática q
 |Grupo 14|[Projeto 08](./Projetos_01/08.c)|
 |Grupo 15|[Projeto 11](./Projetos_01/11.c)|
 |Grupo 16|[Projeto 06](./Projetos_01/06.c)|
-|        |[Projeto 02](./Projetos_01/02.c)|
+|Grupo 17|[Projeto 02](./Projetos_01/02.c)|
 |        |[Projeto 09](./Projetos_01/09.c)|
 |        |[Projeto 18](./Projetos_01/18.c)|
 |        |[Projeto 14](./Projetos_01/14.c)|
