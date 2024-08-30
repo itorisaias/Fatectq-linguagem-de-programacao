@@ -64,7 +64,7 @@ O sistema deve calcular e exibir os seguintes resultados:
 
 |Número do Contrato|Quantidade de Pessoas|Nº de Seguranças Armados|Semana|Múltiplos Eventos|Corporativo|Valor Base|Adicional|Descontos|Valor Total|
 |------------------|---------------------|------------------------|------|-----------------|-----------|----------|---------|---------|-----------|
-|1                 |250                  |2                       |Sim   |Não              |Sim        |R$ 5.000,00|R$ 1.000,00|R$ 720,00 |R$ 5.280,00|
+|1                 |250                  |2                       |Sim   |Não              |Sim        |R$ 5.000,00|R$ 1.000,00|R$ 720,00 |R$ 4.680,00| ***
 |2                 |150                  |1                       |Não   |Sim              |Não        |R$ 2.500,00|R$ 500,00 |R$ 450,00 |R$ 2.550,00|
 |3                 |40                   |0                       |Sim   |Não              |Não        |R$ 1.000,00|R$ 0,00   |R$ 100,00 |R$ 900,00  |
 
