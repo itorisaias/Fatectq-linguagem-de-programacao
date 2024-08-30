@@ -48,11 +48,11 @@ O objetivo deste projeto é que cada grupo desenvolva uma aplicação prática q
 |Grupo 15|Gabriel Rodrigues de Oliveira                  |
 |Grupo 15|Gustavo felipe penha                           |
 |Grupo 16|Bruna scaramuzza rodrigues                     |
-|Grupo 16|Tainara mariana da silva                       |
 |Grupo 16|Gustavo henrique rodrigues                     |
 |Grupo 17|Livea mendes de vasconcelos                    |
+|Grupo 18|Tainara mariana da silva                       |
+|Grupo 18|Jeferson vitor pereira                         |
 |        |Aparecida Daniela Mendes Manzi                 |
-|        |Jeferson vitor pereira                         |
 |        |Joao vitor leoncio                             |
 |        |Vinicius ferraz castro                         |
 |        |Vitor gibertoni lumpano                        |
@@ -82,7 +82,7 @@ O objetivo deste projeto é que cada grupo desenvolva uma aplicação prática q
 |Grupo 15|[Projeto 11](./Projetos_01/11.c)|
 |Grupo 16|[Projeto 06](./Projetos_01/06.c)|
 |Grupo 17|[Projeto 02](./Projetos_01/02.c)|
-|        |[Projeto 09](./Projetos_01/09.c)|
+|Grupo 18|[Projeto 09](./Projetos_01/09.c)|
 |        |[Projeto 18](./Projetos_01/18.c)|
 |        |[Projeto 14](./Projetos_01/14.c)|
 
