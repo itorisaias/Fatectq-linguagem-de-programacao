@@ -24,6 +24,7 @@ O objetivo deste projeto é que cada grupo desenvolva uma aplicação prática q
 |Grupo 05|Gabriely sassi                                 |
 |Grupo 06|João Francisco Leão Magi                       |
 |Grupo 06|Raul Marques Serrano                           |
+|Grupo 06|Vitor gibertoni lumpano                        |
 |Grupo 07|Kevin Gabriel Siqueira                         |
 |Grupo 07|Kevin Dourado Bernardo                         |
 |Grupo 07|Gabriel Soares Velozo                          |
@@ -55,7 +56,6 @@ O objetivo deste projeto é que cada grupo desenvolva uma aplicação prática q
 |        |Aparecida Daniela Mendes Manzi                 |
 |        |Joao vitor leoncio                             |
 |        |Vinicius ferraz castro                         |
-|        |Vitor gibertoni lumpano                        |
 |        |Marcos renato dias                             |
 |        |Juliana monielly da silva moreira chicotti     |
 
