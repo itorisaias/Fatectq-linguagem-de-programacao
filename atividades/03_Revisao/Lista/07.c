@@ -1,5 +1,8 @@
 // Faça um programa em C que receba um número inteiro e positivo, e diga se esse número é primo ou não. Obs: Um número é primo somente quando for divisível por 1 e por ele mesmo.
 
+// Uma forma simples e clara para descobrir se um número é primo em C é verificar se ele é divisível por algum número além de 1 e dele mesmo.
+// Aqui está um exemplo de código que realiza essa verificação:
+
 #include <stdio.h>
 
 int main() {
