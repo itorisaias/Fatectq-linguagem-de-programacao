@@ -30,6 +30,7 @@ O objetivo deste projeto é que cada grupo desenvolva uma aplicação prática q
 |Grupo 07|Gabriel Soares Velozo                          |
 |Grupo 08|Isabelle Marciano Pellarin                     |
 |Grupo 08|Ana Julia Amidami Rosa                         |
+|Grupo 08|Bruna scaramuzza rodrigues                     |
 |Grupo 09|Pedro Henrique Akasaka de Souza                |
 |Grupo 09|Victor Guilherme Queiroz Homem                 |
 |Grupo 10|Isaac Aparecido da Cunha                       |
@@ -48,7 +49,6 @@ O objetivo deste projeto é que cada grupo desenvolva uma aplicação prática q
 |Grupo 15|Guilherme da silva simao                       |
 |Grupo 15|Gabriel Rodrigues de Oliveira                  |
 |Grupo 15|Gustavo felipe penha                           |
-|Grupo 16|Bruna scaramuzza rodrigues                     |
 |Grupo 16|Gustavo henrique rodrigues                     |
 |Grupo 17|Livea mendes de vasconcelos                    |
 |Grupo 18|Tainara mariana da silva                       |
