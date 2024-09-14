@@ -41,18 +41,18 @@ O objetivo deste projeto é que cada grupo desenvolva uma aplicação prática q
 |Grupo 11|Breno Pavanelli dos Santos                     |
 |Grupo 12|Deives Ivan Beil                               |
 |Grupo 12|Mateus Romano                                  |
+|Grupo 12|Gabriel Rodrigues de Oliveira                  |
 |Grupo 13|Bruno Vinícius Evaristo Santa Capita           |
 |Grupo 13|Everton Pereira Lemos                          |
-|Grupo 14|Gabriel Felipe Emilio                          |
+|Grupo 15|Guilherme da silva simao                       |
 |Grupo 14|Rafael Costa                                   |
 |Grupo 14|Thomas Nantes Mauro                            |
-|Grupo 15|Guilherme da silva simao                       |
-|Grupo 15|Gabriel Rodrigues de Oliveira                  |
-|Grupo 15|Gustavo felipe penha                           |
-|Grupo 16|Gustavo henrique rodrigues                     |
-|Grupo 17|Livea mendes de vasconcelos                    |
 |Grupo 18|Tainara mariana da silva                       |
 |Grupo 18|Jeferson vitor pereira                         |
+|Grupo 16|Gustavo henrique rodrigues                     |
+|Grupo 17|Livea mendes de vasconcelos                    |
+|Grupo 15|Gustavo felipe penha                           |
+|        |Gabriel Felipe Emilio                          |
 |        |Aparecida Daniela Mendes Manzi                 |
 |        |Joao vitor leoncio                             |
 |        |Vinicius ferraz castro                         |
