@@ -44,7 +44,7 @@ O objetivo deste projeto é que cada grupo desenvolva uma aplicação prática q
 |Grupo 12|Gabriel Rodrigues de Oliveira                  |
 |Grupo 13|Bruno Vinícius Evaristo Santa Capita           |
 |Grupo 13|Everton Pereira Lemos                          |
-|Grupo 15|Guilherme da silva simao                       |
+|Grupo 14|Guilherme da silva simao                       |
 |Grupo 14|Rafael Costa                                   |
 |Grupo 14|Thomas Nantes Mauro                            |
 |Grupo 18|Tainara mariana da silva                       |
