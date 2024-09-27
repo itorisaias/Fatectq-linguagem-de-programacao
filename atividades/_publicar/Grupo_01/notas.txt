@@ -1,0 +1,10 @@
+Suellen ou Sofia:
+Qual é a vantagem de utilizar #define para definir os valores de ONIBUS, VAN e CARRO? Poderíamos usar variáveis ao invés disso?
+Por que temos #define MAX_RESERVAS 100? O que aconteceria se esse valor fosse menor ou maior?
+Como funciona o do-while no menu? O que acontece se o usuário inserir um número fora das opções listadas?
+
+Daniel:
+Na função ordenar, qual é o propósito do loop for duplo? O que aconteceria se o laço for não tivesse o segundo loop (for(int j = i + 1; j < total; j++))?
+Me explique o por que da linha 121 (if(total == 0) na função resultados)
+A variavel `total` está local, qual o maior problema?
+O que acontece se num_pessoas for maior que 20 e a viagem for em feriado? Quais condições precisam ser atendidas para que o valor final da reserva seja o maior possível?

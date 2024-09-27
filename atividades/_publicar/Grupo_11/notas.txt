@@ -1,0 +1,4 @@
+- Qual outra estrutura poderíamos utilizar no menu? Quais são as diferenças entre elas?
+- Qual algoritmo você utilizou para ordenar? Quais são as desvantagens desse algoritmo?
+
+- O que aconteceria se, na função inserirRegistro, removêssemos o trecho if (contratosfeitos >= MAX_CONTRATOS)?

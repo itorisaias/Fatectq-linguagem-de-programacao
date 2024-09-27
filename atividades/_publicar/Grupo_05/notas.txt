@@ -1,0 +1,6 @@
+- qual outra estrutura podeiramos utilizar no menu, e qual a diferença entre elas?
+- qual algoritimo utilizou para ordenar? qual o ponto negativo dele?
+- Me explique o beneficio de utilziar struct
+- O que acontece se na função inserirRegistro removermos o `if (num_contratos < MAX_CONTRATOS)`?
+- qual o problema se antes de eu realizar um registro chamar a função: `apresentar_resultados`
+- qual o problema da função `inserir_contrato` ? refatoração e separação de  regras em pedações.

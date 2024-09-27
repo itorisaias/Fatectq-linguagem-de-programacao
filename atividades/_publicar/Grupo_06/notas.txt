@@ -1,0 +1,4 @@
+- qual outra estrutura podeiramos utilizar no menu, e qual a diferença entre elas?
+- qual algoritimo utilizou para ordenar? qual o ponto negativo dele?
+- O que acontece se na função inserirRegistro removermos o `if (contratosfeitos >= MAX_CONTRATOS)`?
+- na função calculoDoJuros tem um problema no calculo `valorPorMesOriginal`? como resolver?

@@ -1,0 +1,5 @@
+- qual outra estrutura podeiramos utilizar no menu, e qual a diferença entre elas?
+- qual algoritimo utilizou para ordenar? qual o ponto negativo dele? e existe um problema sabe qual é (99 e não 100) ?
+- o que acontece se eu entrar na opcao `resultados` antes de isnerir registro, como corrigir? (divisao por zero)
+- que tem de probme na função `inserirdados` ? o que acontece se eu cadastrar 102 usuarios ?
+- O cálculo do valor médio dos alugueis com seguro parece confuso. Como você calcularia essa média de forma mais clara e precisa?

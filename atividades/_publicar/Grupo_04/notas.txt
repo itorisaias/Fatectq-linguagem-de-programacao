@@ -1,0 +1,6 @@
+- qual outra estrutura podeiramos utilizar no menu, e qual a diferença entre elas?
+- qual algoritimo utilizou para ordenar? qual o ponto negativo dele?
+- Me explique o beneficio de utilziar struct
+- O que acontece se na função inserirRegistro removermos o `if (*qntdInscricoes >= MAXIMO_INSCRICOES)`?
+- Qual o problema na `    float mediaVip = (totalVip > 0) ? (totalVip / (totalVip / numEventos)) : 0;`
+- ao registrar um novo dado, sempre faz o calculo como poderiamos melhorar?

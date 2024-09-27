@@ -1,0 +1,13 @@
+gostei das funções separando tudo até os calculos
+
+matheus
+- Me explique o beneficio de utilziar struct
+- na função calcularValorBase tem algum problema? como poderiamos envitar o problema?
+- Como poderiamos melhorar a legbilidade do codigo, o main está muito abaixo.
+- O que acontece se na função inserirVenda removermos o `count < MAX_VENDAS`?
+
+catarina
+- qual outra estrutura poderiamos utilizar no lugar do if, else if, else (qual beneficio)
+- qual outra estrutura podeiramos utilizar no menu, e qual a diferença entre elas?
+- qual algoritimo utilizou para ordenar? qual o ponto negativo dele?
+- qual o problema na função calcularDesconto ? (sobrepõe  desconto)

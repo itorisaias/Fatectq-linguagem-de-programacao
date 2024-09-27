@@ -1,0 +1,15 @@
+Aisha
+- Como poderiamos melhorar o menu ( qual outra estrutura podeiramos utilziar? qual ? )
+- Opção 1 do menu como poderiamos melhorar ela? (como devo criar oq devo passar e receber)
+-
+
+Eduardo
+- O que acontece se antes de eu registra um usuario solicitar a apresentação dos resultados?
+- Como poderiamos melhorar a legibilidade do codigo? as funções estão muito uma encima da outra.
+- Toda vez que registramos um dado ele faz o calculo, qual o problema e como poderiamos melhorar isso?
+
+Lucas
+- Qual outra estrutura de repetição poderiamos utilizar no medu? qual a diferença entre elas?
+- O que o if (if(totalContratos < 100)) esta fazendo no registro? o que acontece se eu nao validar?
+- O que acontece se eu digiar um numero nao encontrado no menu? como poderiamos melhorar?
+
