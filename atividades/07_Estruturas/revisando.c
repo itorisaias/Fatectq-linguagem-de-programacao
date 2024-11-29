@@ -49,6 +49,23 @@ float calcularSaldo(Conta conta) {
     }
     return saldo;
 }
+int buscarIndiceConta(int numeroConta) {
+    if (numeroConta == 0 ) {
+        printf("Digite o numero da conta: ");
+        scanf("%d", &numeroConta);
+    }
+
+    for (int i = 0; i < qtd_contas; i++)
+    {
+        Conta conta = contas[i];
+
+        if (conta.numero == numeroConta && conta.status == ATIVO) {
+            return i;
+        }
+    }
+
+    return -1;
+}
 
 void menu() {
     int opc;
@@ -128,106 +145,66 @@ void criarConta() {
 void consultarSaldo() {
     printf("Consultar Saldo\n");
 
-    int numeroConta;
-    printf("Digite o numero da conta: ");
-    scanf("%d", &numeroConta);
-
-    for (int i = 0; i < qtd_contas; i++)
-    {
-        Conta conta = contas[i];
-
-        if (conta.numero == numeroConta && conta.status == ATIVO) {
-            float saldo = 0;
-            for (int t = 0; t < conta.qtd_transacoes; t++)
-            {
-                Transacao transacao = conta.transacoes[t];
-                if (strcmp(transacao.tipo, DEPOSITO) == 0) {
-                    saldo += transacao.valor;
-                } else {
-                    saldo -= transacao.valor;
-                }
-            }
-
-            printf("Saldo da conta %d é de R$ %.2f\n", conta.numero, saldo);
-            return;
-        }
+    int indiceConta = buscarIndiceConta(0);
+    if (indiceConta == -1) {
+        printf("Conta nao encontrada!\n");
+        return;
     }
-    
-    printf("Conta nao encontrada!\n");
+
+    Conta conta = contas[indiceConta];
+    float saldo = calcularSaldo(conta);
+
+    printf("Saldo da conta %d é de R$ %.2f\n", conta.numero, saldo);
 }
 void depositar() {
     printf("Depositar\n");
 
-    int numeroConta;
-    printf("Digite o numero da conta: ");
-    scanf("%d", &numeroConta);
-
-    for (int i = 0; i < qtd_contas; i++)
-    {
-        Conta conta = contas[i];
-
-        if (conta.numero == numeroConta && conta.status == ATIVO) {
-            Transacao deposito;
-            printf("Digite o valor: ");
-            scanf("%f", &deposito.valor);
-            strcpy(deposito.tipo, DEPOSITO);
-            
-            conta.transacoes[conta.qtd_transacoes] = deposito;
-            conta.qtd_transacoes += 1;
-
-            contas[i] = conta;
-
-            printf("Deposito realizado!\n");
-            return;
-        }
+    int indiceConta = buscarIndiceConta(0);
+    if (indiceConta == -1) {
+        printf("Conta nao encontrada!\n");
+        return;
     }
-    
-    printf("Conta nao encontrada!\n");
+
+    Conta conta = contas[indiceConta];
+    Transacao deposito;
+
+    printf("Digite o valor: ");
+    scanf("%f", &deposito.valor);
+    strcpy(deposito.tipo, DEPOSITO);
+
+    conta.transacoes[conta.qtd_transacoes] = deposito;
+    conta.qtd_transacoes += 1;
+    contas[indiceConta] = conta;
+
+    printf("Deposito realizado!\n");
 }
 void sacar() {
     printf("Sacar\n");
 
-    int numeroConta;
-    printf("Digite o numero da conta: ");
-    scanf("%d", &numeroConta);
-
-    for (int i = 0; i < qtd_contas; i++)
-    {
-        Conta conta = contas[i];
-
-        if (conta.numero == numeroConta && conta.status == ATIVO) {
-            Transacao saque;
-            printf("Digite o valor: ");
-            scanf("%f", &saque.valor);
-            strcpy(saque.tipo, SAQUE);
-
-            float saldo = 0;
-            for (int t = 0; t < conta.qtd_transacoes; t++)
-            {
-                Transacao transacao = conta.transacoes[t];
-                if (strcmp(transacao.tipo, DEPOSITO) == 0) {
-                    saldo += transacao.valor;
-                } else {
-                    saldo -= transacao.valor;
-                }
-            }
-
-            if (saque.valor > saldo) {
-                printf("Saldo insuficiente!\n");
-                return;
-            }
-
-            conta.transacoes[conta.qtd_transacoes] = saque;
-            conta.qtd_transacoes += 1;
-
-            contas[i] = conta;
-
-            printf("Saque realizado!\n");
-            return;
-        }
+    int indiceConta = buscarIndiceConta(0);
+    if (indiceConta == -1) {
+        printf("Conta nao encontrada!\n");
+        return;
     }
+    Conta conta = contas[indiceConta];
+    Transacao saque;
+    float saldo = calcularSaldo(conta);
+
+    printf("Digite o valor: ");
+    scanf("%f", &saque.valor);
+    strcpy(saque.tipo, SAQUE);
     
-    printf("Conta nao encontrada!\n");
+    if (saque.valor > saldo) {
+        printf("Saldo insuficiente!\n");
+        return;
+    }
+
+    conta.transacoes[conta.qtd_transacoes] = saque;
+    conta.qtd_transacoes += 1;
+
+    contas[indiceConta] = conta;
+
+    printf("Saque realizado!\n");
 }
 void listarContas() {
     printf("Listar Contas\n");
@@ -244,38 +221,22 @@ void listarContas() {
 void excluirConta() {
     printf("Excluir Conta\n");
 
-    int numeroConta;
-    printf("Digite o numero da conta: ");
-    scanf("%d", &numeroConta);
-
-    for (int i = 0; i < qtd_contas; i++)
-    {
-        Conta conta = contas[i];
-
-        if (conta.numero == numeroConta && conta.status == ATIVO) {
-            float saldo = 0;
-            for (int t = 0; t < conta.qtd_transacoes; t++)
-            {
-                Transacao transacao = conta.transacoes[t];
-                if (strcmp(transacao.tipo, DEPOSITO) == 0) {
-                    saldo += transacao.valor;
-                } else {
-                    saldo -= transacao.valor;
-                }
-            }
-
-            if (saldo > 0) {
-                printf("Antes de inativar a conta zero o saldo!\n");
-                return;
-            }
-
-            contas[i].status = INATIVO;
-            
-            return;
-        }
+    int indiceConta = buscarIndiceConta(0);
+    if (indiceConta == -1) {
+        printf("Conta nao encontrada!\n");
+        return;
     }
-    
-    printf("Conta nao encontrada!\n");
+    Conta conta = contas[indiceConta];
+    float saldo = calcularSaldo(conta);
+
+    if (saldo > 0) {
+        printf("Antes de inativar a conta zero o saldo!\n");
+        return;
+    }
+
+    contas[indiceConta].status = INATIVO;
+
+    printf("Conta excluida!\n");
 }
 void exportar() {
     printf("Exportar\n");
@@ -287,12 +248,20 @@ void exportar() {
         return;
     }
 
-    fprintf(arq, "numero;nome;saldo\n");
+    fprintf(arq, "numero;nome;tipo_transacao;valor_transacao\n");
+
     for (int i = 0; i < qtd_contas; i++)
     {
         Conta conta = contas[i];
-        float saldo = calcularSaldo(conta);
-        fprintf(arq, "%d;%s;%.2f\n", conta.numero, conta.nome, saldo);
+        for (int t = 0; t < conta.qtd_transacoes; t++)
+        {
+            Transacao transacao = conta.transacoes[t];
+            fprintf(
+                arq,
+                "%d;%s;%s;%.2f\n",
+                conta.numero, conta.nome, transacao.tipo, transacao.valor
+            );
+        }
     }
 
     fclose(arq);
@@ -307,22 +276,32 @@ void importar() {
         return;
     }
 
-    char linha[100];
-    fgets(linha, sizeof(linha), arq);
+    fscanf(arq, "%s\n");
     
-    while (fgets(linha, sizeof(linha), arq)) {
-        Conta conta;
-        
-        Transacao transacao;
-        strcpy(transacao.tipo, DEPOSITO);
+    Conta conta;
+    Transacao transacao;
 
-        sscanf(linha, "%d;%[^;];%f", &conta.numero, conta.nome, &transacao.valor);
+    while (
+        fscanf(
+            arq,
+            "%d;%[^;];%[^;];%f",
+            &conta.numero, conta.nome, &transacao.tipo, &transacao.valor
+        )
+    ) {
+        int indiceConta = buscarIndiceConta(conta.numero);
 
-        conta.transacoes[0] = transacao;
-        conta.qtd_transacoes = 1;
-        conta.status = ATIVO;
+        if (indiceConta == -1) {
+            conta.transacoes[0] = transacao;
+            conta.qtd_transacoes = 1;
 
-        contas[qtd_contas] = conta;
-        qtd_contas += 1;
+            conta.status = ATIVO;
+            contas[qtd_contas] = conta;
+            qtd_contas += 1;
+        } else {
+            Conta conta = contas[indiceConta];
+            conta.transacoes[conta.qtd_transacoes] = transacao;
+            conta.qtd_transacoes += 1;
+            contas[indiceConta] = conta;
+        }
     }
 }
