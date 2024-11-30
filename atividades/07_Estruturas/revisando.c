@@ -284,7 +284,7 @@ void importar() {
     while (
         fscanf(
             arq,
-            "%d;%[^;];%[^;];%f",
+            "%d;%[^;];%[^;];%f\n",
             &conta.numero, conta.nome, &transacao.tipo, &transacao.valor
         )
     ) {

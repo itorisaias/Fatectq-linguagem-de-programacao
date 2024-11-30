@@ -17,7 +17,7 @@ void verificarSituacao(float media);
 float encontrarMaiorNota(float notas[4]);
 
 int main() {
-    float notas[2][4], maior, media;
+    float notas[2][4], maior, media, media_sala = 0;
 
     for (int aluno = 0; aluno < 2; aluno++)
     {
@@ -28,13 +28,16 @@ int main() {
         printf("Media: %.2f\n", media);
         verificarSituacao(media);
 
+        media_sala += media;
+
         maior = encontrarMaiorNota(notas[aluno]);
         printf("Maior nota é: %.2f\n\n", maior);
     }
+
+    printf("Media da sala %f \n", media_sala / 2);
     
     return 0;
 }
-
 
 void lerNotas(float notas[4]) {
     for (int nota = 0; nota < 4; nota++)
