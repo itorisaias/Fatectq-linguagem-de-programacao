@@ -1,5 +1,5 @@
 ---
-marp: false
+marp: true
 theme: custom-default
 paginate: true
 ---
@@ -17,9 +17,9 @@ Itor Isaias - Professor & Software Engineer
 
 ---
 
-![bg left:40%](./img/22206344.png)
+![bg left:40%](./img/carreira/profile_01.jpeg)
 
-# **Whoami**
+# **Quem sou eu?**
 ## Itor Isaias
 
 - <i class="fa-brands fa-linkedin"></i> [itorisaias](https://www.linkedin.com/in/itorisaias/)
@@ -52,8 +52,6 @@ Itor Isaias - Professor & Software Engineer
 - No começo: foco em **passar nas matérias**, não no mercado
 - No 4º semestre: **choque de realidade** em Engenharia de Software
 - Professores me ajudaram a enxergar a diferença entre faculdade e mercado
-
-> _"A faculdade te dá a base. O mercado te dá a direção."_
 
 ---
 
@@ -125,6 +123,8 @@ Ensinar me fez um engenheiro melhor.
 - **Aprendizado contínuo** é o único diferencial real
 
 <br>
+
+Recomendação: [roadmap.sh](https://roadmap.sh) - mostra o que estudar e qual caminho seguir em cada área
 
 > _Você está no lugar certo. O que você vai fazer com isso?_
 
