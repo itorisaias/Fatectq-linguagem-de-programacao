@@ -35,6 +35,12 @@ jobs:
           args: --theme-set slides/themes -o build/01.html --html -- slides/01_Introducao.md
         env:
           MARP_USER: root:root
+      - name: Marp Build (00_Carreira)
+        uses: docker://marpteam/marp-cli:latest
+        with:
+          args: --theme-set slides/themes -o build/00.html --html -- slides/00_Carreira.md
+        env:
+          MARP_USER: root:root
       - name: Marp Build (02_Cronograma)
         uses: docker://marpteam/marp-cli:latest
         with:
