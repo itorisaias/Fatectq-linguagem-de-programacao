@@ -29,19 +29,14 @@ Itor Isaias - Professor & Software Engineer
 
 ---
 
-![bg contain](./img/carreira/photo1.jpg)
+![bg](./img/carreira/photo1.jpg)
+![bg](./img/carreira/photo2.jpg)
+![bg](./img/carreira/photo3.jpg)
 
 ---
 
-![bg contain](./img/carreira/photo2.jpg)
-
----
-
-![bg contain](./img/carreira/photo3.jpg)
-
----
-
-![bg contain](./img/carreira/photo4.jpg)
+![bg](./img/carreira/WhatsApp%20Image%202026-05-25%20at%2022.22.31%20(1).jpeg)
+![bg](./img/carreira/WhatsApp%20Image%202026-05-25%20at%2022.22.31%20(5).jpeg)
 
 ---
 
